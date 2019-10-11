@@ -511,7 +511,7 @@ document.getElementsByTagName('head')[0].appendChild(style);
 </ul></li>
 <li>Model
 <ul>
-<li><span class="math inline">\(\log\lambda(\mathbf{s}) = \mu + Z(\mathbf{s})\)</span></li>
+<li><span class="math inline">\(\log\lambda(\mathbf{s}) = Z(\mathbf{s})\)</span></li>
 <li><span class="math inline">\(Z(\mathbf{s})\)</span> spatial Gaussian process</li>
 </ul></li>
 <li>Log-Gaussian Cox process (LGCP)</li>
@@ -523,7 +523,7 @@ document.getElementsByTagName('head')[0].appendChild(style);
 <li>Random continuous function
 <ul>
 <li><span class="math inline">\(Z(\mathbf{s})\)</span> a Gaussian random variable</li>
-<li>Mean 0</li>
+<li>Mean <span class="math inline">\(\mu\)</span></li>
 <li>Matèrn covariance function</li>
 </ul></li>
 </ul>
@@ -674,7 +674,7 @@ f(\mathbf{s}) \approx \alpha f(1, 0, 0) + \beta f(0, 1, 0) + \gamma f(0, 0, 1)
 <ul>
 <li><span class="citation" data-cites="simpsonetal">Simpson et al. (2016)</span>
 <ul>
-<li><span class="math inline">\(\ell(Z) = C - \sum_{i} \tilde{\alpha}_{i} \exp\left[\sum_{j} z_{j}\phi_{j}(\tilde{\mathbf{s}}_{i})\right] + \sum_{i} \sum_{j} z_{j}\phi_{j}(\mathbf{s_{i}})\)</span></li>
+<li><span class="math inline">\(\ell(Z) \approx C - \sum_{i} \tilde{\alpha}_{i} \exp\left[\sum_{j} z_{j}\phi_{j}(\tilde{\mathbf{s}}_{i})\right] + \sum_{i} \sum_{j} z_{j}\phi_{j}(\mathbf{s_{i}})\)</span></li>
 <li>Poisson distribution</li>
 </ul></li>
 </ul>
