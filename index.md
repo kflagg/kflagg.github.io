@@ -1,6 +1,6 @@
 # Welcome to Kenny's GitHub
 
-[Python Resources](pythonds/index.html)
+[Python Resources](https://kflagg.gitbook.io/pythonds/)
 
 [INLA Slides](manuscript2/presentations/inlademo.html)
 
