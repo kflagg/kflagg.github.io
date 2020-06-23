@@ -2,7 +2,7 @@
 
 [Python Resources](pythonds/index.html)
 
-[INLA Slides](manuscript2/presentations/inlademo.html)INLA Slides
+[INLA Slides](manuscript2/presentations/inlademo.html)
 
 [INLA Spatial Prediction](manuscript2/vignettes/prediction.html)
 
