@@ -12,7 +12,7 @@ leadership.
 
 ### [Atrium Insight](https://atrium.ai), Bozeman, MT
 
-- **Senior Data Science Consultant**, August 2019&emdash;September 2022
+- **Senior Data Science Consultant**, August 2019–September 2022
 - Developed AI/ML models for enterprise clients and implemented these models
   on cloud computing platforms, including AWS and the Salesforce ecosystem.
   Lead a 2-person team on a long-term project using reinforcement learning to
