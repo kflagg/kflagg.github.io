@@ -21,7 +21,7 @@ leadership.
 
 ### [Montana State University, Bozeman](https://www.montana.edu/statisticalconsulting)
 
-- **Graduate Research Assistant**, August 2016&emdash;May 2019
+- **Graduate Research Assistant**, August 2016–May 2019
 - Consultant with Statistical Consulting and Research Services. Met with
   clients, provided research design guidance, performed analyses, created data
   visualizations, wrote reports, and learned new software/methods as necessary.
@@ -32,7 +32,7 @@ leadership.
 
 
 ### [Neptune and Company, Inc.](https://www.neptuneinc.org), Lakewood, CO
-- **Statistics Intern**, May 2016&emdash;July 2016
+- **Statistics Intern**, May 2016–July 2016
 - Assisted Ph.D. statisticians with statistical analyses including simulation
   studies, environmental risk assessments, creating sampling plans, and
   reviewing reports.
@@ -40,7 +40,7 @@ leadership.
 
 ### [Montana State University, Bozeman](https://math.montana.edu)
 
-- **Graduate Teaching Assistant**, August 2014&emdash;May 2016
+- **Graduate Teaching Assistant**, August 2014–May 2016
 - Lead instructor for undergraduate mathematics and statistics courses, in
   both traditional lecture format and student-led small group activities. Lab
   assistant for a mixed upper-division undergraduate/first-year graduate
@@ -50,7 +50,7 @@ leadership.
 
 ### Red9, Manhattan Beach, CA
 
-- **Data Analyst**, November 2013&emdash;January 2014
+- **Data Analyst**, November 2013–January 2014
 - Tested and evaluated algorithms for classifying events in time series data,
   primarily using hidden Markov models implemented in R.
 
@@ -77,7 +77,7 @@ leadership.
 
 ### [Downbeat Vintage Swing Society](https://downbeatswing.com), Bozeman, MT
 
-- **Archivist**, February 2021&emdash;present
+- **Archivist**, February 2021–present
 - Took meeting minutes and maintained records of the board of directors'
   activities. Taught, DJed, trained volunteers, and assisted with volunteer
   recruitments for weekly social dances.
@@ -85,7 +85,7 @@ leadership.
 
 ### [SwingCats at Montana State University](https://msuswingcats.wordpress.com)
 
-- **Secretary**, September 2018&emdash;June 2020
+- **Secretary**, September 2018–June 2020
 - Maintained records and ensured accurate communication between the
   organization's officers and members. Supported other officers as needed with
   social media, graphic design, and coordinating with external organizations.
@@ -104,14 +104,14 @@ leadership.
 
 ### Math Club at University of California, Riverside
 
-- **Organizer**, October 2013&emdash;June 2014
+- **Organizer**, October 2013–June 2014
 - Planned club events such as the annual Pi Day party, recruited graduate
   students and faculty to present talks at club meetings, and gave math talks
   to an undergraduate audience.
 
 ### Transfer Student Association at University of California, Riverside
 
-- **Treasurer**, June 2013&emdash;May 2014
+- **Treasurer**, June 2013–May 2014
 - Assisted with planning and promotion of club events. Worked with the
   university to ensure the organization continued to be funded.
 
