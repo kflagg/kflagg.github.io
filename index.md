@@ -25,6 +25,10 @@ discuss your needs. [Email me](mailto:flagg.ka@gmail.com) to get started!
 
 ## About Kenny
 
+When not doing statistics or data science, I am often traveling or doing swing
+and Latin dancing. However, this site is mostly about my professional
+activities.
+
 - [My CV](kflagg-cv)
 
 
@@ -42,7 +46,8 @@ applying the integrated nested Laplace transform to spacial point patterns.
 ## Python
 
 While working in business data science, I had to migrate from R to Python. I
-have an ongoing side project
+have an ongoing side project to create a curriculum for people with statistical
+training to learn to do data analysis in Python.
 
 - [Python curriculum](https://kflagg.gitbook.io/pythonds/) **(work in progress)**
 
