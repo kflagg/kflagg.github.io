@@ -36,11 +36,7 @@ applying the integrated nested Laplace transform to spacial point patterns.
 - [Example code from my INLA tutorial](https://github.com/kflagg/jas-inla-review)
 - [INLA demo slides](manuscript2/presentations/inlademo.html)
 - [INLA spatial prediction vignette](manuscript2/vignettes/prediction.html)
-<!--
-- [ASA MT Chapter Meeting Slides](inla-wwcc/flagg-mtasa.html)
-- [WWCC Slides](inla-wwcc/inla-wwcc.html)
-- [Three Minute Thesis](flagg-3min.html)
--->
+- [Three Minute Thesis slides](flagg-3min.html)
 
 
 ## Python
