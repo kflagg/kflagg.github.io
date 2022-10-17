@@ -1,4 +1,4 @@
-# Kenneth Allen Flagg
+# Curriculum Vitae—Kenneth Allen Flagg
 
 **[flagg.ka@gmail.com](mailto:flagg.ka@gmail.com)**
 
