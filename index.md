@@ -23,6 +23,11 @@ discuss your needs. [Email me](mailto:flagg.ka@gmail.com) to get started!
 # Resources
 
 
+## About Kenny
+
+- [My CV](kflagg-cv)
+
+
 ## INLA
 
 Here are some assorted vignettes and slide decks from my doctoral research
