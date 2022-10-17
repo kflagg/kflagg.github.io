@@ -2,7 +2,8 @@
 
 As a researcher, you need to be sure your conclusions are sound and supported
 by data. The best way to do this is to involve a statistician. As a statistical
-consultant, I can provide guidance at every stage, from proposal writing and
+consultant, I want to ensure that researchers and the public make responsible
+use of data. I can provide guidance at every stage, from proposal writing and
 designing experiments, to data collection and validation, all the way to the
 final data analysis and ensuring results are communicated in an understandable
 manner.
@@ -16,8 +17,9 @@ prepared to tackle any data-related issue you may have. Have a look at my
 [CV](kflagg-cv).
 
 If you are interested in bringing me onto your project as a statistical
-practitioner, I will be happy to schedule a free 45-minute consultation to
-discuss your needs. [Email me](mailto:flagg.ka@gmail.com) to get started!
+practitioner, I will be happy to schedule a free no-obligation 45-minute
+consultation to discuss your needs. [Email me](mailto:flagg.ka@gmail.com) to
+get started!
 
 
 # Resources
