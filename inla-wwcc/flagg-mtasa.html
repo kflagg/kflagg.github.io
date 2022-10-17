@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="K. A. Flagg" />
+  <meta name="dcterms.date" content="2019-10-11" />
+  <title>Practical Application of Spatial Point Process Models: The SPDE Approach</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="flagg-mtasa_files/reveal.js-3.3.0.1/css/reveal.css"/>
+
+
+
+<link rel="stylesheet" href="flagg-mtasa_files/reveal.js-3.3.0.1/css/theme/black.css" id="theme">
+
+<style type="text/css">
+.reveal section img {
+  background: rgba(255, 255, 255, 0.85);
+}
+</style>
+
+  <!-- some tweaks to reveal css -->
+  <style type="text/css">
+    .reveal h1 { font-size: 2.0em; }
+    .reveal h2 { font-size: 1.5em;  }
+    .reveal h3 { font-size: 1.25em;	}
+    .reveal h4 { font-size: 1em;	}
+
+    .reveal .slides>section,
+    .reveal .slides>section>section {
+      padding: 0px 0px;
+    }
+
+
+
+    .reveal table {
+      border-width: 1px;
+      border-spacing: 2px;
+      border-style: dotted;
+      border-color: gray;
+      border-collapse: collapse;
+      font-size: 0.7em;
+    }
+
+    .reveal table th {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      font-weight: bold;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+    .reveal table td {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+
+  </style>
+
+    <style type="text/css">code{white-space: pre;}</style>
+
+    <link rel="stylesheet" href="custom.css"/>
+
+<!-- Printing and PDF exports -->
+<script id="paper-css" type="application/dynamic-css">
+
+/* Default Print Stylesheet Template
+   by Rob Glazebrook of CSSnewbie.com
+   Last Updated: June 4, 2008
+
+   Feel free (nay, compelled) to edit, append, and
+   manipulate this file as you see fit. */
+
+
+@media print {
+
+	/* SECTION 1: Set default width, margin, float, and
+	   background. This prevents elements from extending
+	   beyond the edge of the printed page, and prevents
+	   unnecessary background images from printing */
+	html {
+		background: #fff;
+		width: auto;
+		height: auto;
+		overflow: visible;
+	}
+	body {
+		background: #fff;
+		font-size: 20pt;
+		width: auto;
+		height: auto;
+		border: 0;
+		margin: 0 5%;
+		padding: 0;
+		overflow: visible;
+		float: none !important;
+	}
+
+	/* SECTION 2: Remove any elements not needed in print.
+	   This would include navigation, ads, sidebars, etc. */
+	.nestedarrow,
+	.controls,
+	.fork-reveal,
+	.share-reveal,
+	.state-background,
+	.reveal .progress,
+	.reveal .backgrounds {
+		display: none !important;
+	}
+
+	/* SECTION 3: Set body font face, size, and color.
+	   Consider using a serif font for readability. */
+	body, p, td, li, div {
+		font-size: 20pt!important;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		color: #000;
+	}
+
+	/* SECTION 4: Set heading font face, sizes, and color.
+	   Differentiate your headings from your body text.
+	   Perhaps use a large sans-serif for distinction. */
+	h1,h2,h3,h4,h5,h6 {
+		color: #000!important;
+		height: auto;
+		line-height: normal;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		text-shadow: 0 0 0 #000 !important;
+		text-align: left;
+		letter-spacing: normal;
+	}
+	/* Need to reduce the size of the fonts for printing */
+	h1 { font-size: 28pt !important;  }
+	h2 { font-size: 24pt !important; }
+	h3 { font-size: 22pt !important; }
+	h4 { font-size: 22pt !important; font-variant: small-caps; }
+	h5 { font-size: 21pt !important; }
+	h6 { font-size: 20pt !important; font-style: italic; }
+
+	/* SECTION 5: Make hyperlinks more usable.
+	   Ensure links are underlined, and consider appending
+	   the URL to the end of the link for usability. */
+	a:link,
+	a:visited {
+		color: #000 !important;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+	/*
+	.reveal a:link:after,
+	.reveal a:visited:after {
+		content: " (" attr(href) ") ";
+		color: #222 !important;
+		font-size: 90%;
+	}
+	*/
+
+
+	/* SECTION 6: more reveal.js specific additions by @skypanther */
+	ul, ol, div, p {
+		visibility: visible;
+		position: static;
+		width: auto;
+		height: auto;
+		display: block;
+		overflow: visible;
+		margin: 0;
+		text-align: left !important;
+	}
+	.reveal pre,
+	.reveal table {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.reveal pre code {
+		padding: 20px;
+		border: 1px solid #ddd;
+	}
+	.reveal blockquote {
+		margin: 20px 0;
+	}
+	.reveal .slides {
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 0 !important;
+		zoom: 1 !important;
+
+		overflow: visible !important;
+		display: block !important;
+
+		text-align: left !important;
+		-webkit-perspective: none;
+		   -moz-perspective: none;
+		    -ms-perspective: none;
+		        perspective: none;
+
+		-webkit-perspective-origin: 50% 50%;
+		   -moz-perspective-origin: 50% 50%;
+		    -ms-perspective-origin: 50% 50%;
+		        perspective-origin: 50% 50%;
+	}
+	.reveal .slides section {
+		visibility: visible !important;
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+		display: block !important;
+		overflow: visible !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 60px 20px !important;
+		z-index: auto !important;
+
+		opacity: 1 !important;
+
+		page-break-after: always !important;
+
+		-webkit-transform-style: flat !important;
+		   -moz-transform-style: flat !important;
+		    -ms-transform-style: flat !important;
+		        transform-style: flat !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+
+		-webkit-transition: none !important;
+		   -moz-transition: none !important;
+		    -ms-transition: none !important;
+		        transition: none !important;
+	}
+	.reveal .slides section.stack {
+		padding: 0 !important;
+	}
+	.reveal section:last-of-type {
+		page-break-after: avoid !important;
+	}
+	.reveal section .fragment {
+		opacity: 1 !important;
+		visibility: visible !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+	}
+	.reveal section img {
+		display: block;
+		margin: 15px 0px;
+		background: rgba(255,255,255,1);
+		border: 1px solid #666;
+		box-shadow: none;
+	}
+
+	.reveal section small {
+		font-size: 0.8em;
+	}
+
+}  
+</script>
+
+
+<script id="pdf-css" type="application/dynamic-css">
+    
+/**
+ * This stylesheet is used to print reveal.js
+ * presentations to PDF.
+ *
+ * https://github.com/hakimel/reveal.js#pdf-export
+ */
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+
+body {
+	margin: 0 auto !important;
+	border: 0;
+	padding: 0;
+	float: none !important;
+	overflow: visible;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+/* Remove any elements not needed in print. */
+.nestedarrow,
+.reveal .controls,
+.reveal .progress,
+.reveal .playback,
+.reveal.overview,
+.fork-reveal,
+.share-reveal,
+.state-background {
+	display: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-shadow: 0 0 0 #000 !important;
+}
+
+.reveal pre code {
+	overflow: hidden !important;
+	font-family: Courier, 'Courier New', monospace !important;
+}
+
+ul, ol, div, p {
+	visibility: visible;
+	position: static;
+	width: auto;
+	height: auto;
+	display: block;
+	overflow: visible;
+	margin: auto;
+}
+.reveal {
+	width: auto !important;
+	height: auto !important;
+	overflow: hidden !important;
+}
+.reveal .slides {
+	position: static;
+	width: 100%;
+	height: auto;
+
+	left: auto;
+	top: auto;
+	margin: 0 !important;
+	padding: 0 !important;
+
+	overflow: visible;
+	display: block;
+
+	-webkit-perspective: none;
+	   -moz-perspective: none;
+	    -ms-perspective: none;
+	        perspective: none;
+
+	-webkit-perspective-origin: 50% 50%; /* there isn't a none/auto value but 50-50 is the default */
+	   -moz-perspective-origin: 50% 50%;
+	    -ms-perspective-origin: 50% 50%;
+	        perspective-origin: 50% 50%;
+}
+
+.reveal .slides section {
+	page-break-after: always !important;
+
+	visibility: visible !important;
+	position: relative !important;
+	display: block !important;
+	position: relative !important;
+
+	margin: 0 !important;
+	padding: 0 !important;
+	box-sizing: border-box !important;
+	min-height: 1px;
+
+	opacity: 1 !important;
+
+	-webkit-transform-style: flat !important;
+	   -moz-transform-style: flat !important;
+	    -ms-transform-style: flat !important;
+	        transform-style: flat !important;
+
+	-webkit-transform: none !important;
+	   -moz-transform: none !important;
+	    -ms-transform: none !important;
+	        transform: none !important;
+}
+
+.reveal section.stack {
+	margin: 0 !important;
+	padding: 0 !important;
+	page-break-after: avoid !important;
+	height: auto !important;
+	min-height: auto !important;
+}
+
+.reveal img {
+	box-shadow: none;
+}
+
+.reveal .roll {
+	overflow: visible;
+	line-height: 1em;
+}
+
+/* Slide backgrounds are placed inside of their slide when exporting to PDF */
+.reveal section .slide-background {
+	display: block !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+/* All elements should be above the slide-background */
+.reveal section>* {
+	position: relative;
+	z-index: 1;
+}
+
+/* Display slide speaker notes when 'showNotes' is enabled */
+.reveal .speaker-notes-pdf {
+	display: block;
+	width: 100%;
+	max-height: none;
+	left: auto;
+	top: auto;
+	z-index: 100;
+}
+
+/* Display slide numbers when 'slideNumber' is enabled */
+.reveal .slide-number-pdf {
+	display: block;
+	position: absolute;
+	font-size: 14px;
+}
+
+</script>
+
+
+<script>
+var style = document.createElement( 'style' );
+style.type = 'text/css';
+var style_script_id = window.location.search.match( /print-pdf/gi ) ? 'pdf-css' : 'paper-css';
+var style_script = document.getElementById(style_script_id).text;
+style.innerHTML = style_script;
+document.getElementsByTagName('head')[0].appendChild(style);
+</script>
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">Practical Application of Spatial Point Process Models: The SPDE Approach</h1>
+    <h2 class="author">K. A. Flagg</h2>
+    <h3 class="date">11 October 2019</h3>
+</section>
+
+<section id="section" class="slide level1 nocenter">
+<h1></h1>
+<p><img src="asamt-figures/simplex.png" alt="Diagram of a simplex" align="left"></p>
+</section>
+<section id="section-1" class="slide level1 nocenter">
+<h1></h1>
+<p><img src="asamt-figures/simplex.png" alt="Diagram of a simplex" align="left"> <br /><br /><br /> <span class="math display">\[
+(\kappa^{2} - \Delta)^{\alpha / 2} (\tau Z(\mathbf{s})) = W(\mathbf{s})
+\]</span> <br /><br /><br /></p>
+</section>
+<section id="section-2" class="slide level1 nocenter">
+<h1></h1>
+<p><img src="asamt-figures/simplex.png" alt="Diagram of a simplex" align="left"> <br /><br /><br /> <span class="math display">\[
+(\kappa^{2} - \Delta)^{\alpha / 2} (\tau Z(\mathbf{s})) = W(\mathbf{s})
+\]</span> <br /><br /><br /> <img src="asamt-figures/joey.gif" alt="Joey Tribiani saying how you doin’?" /></p>
+</section>
+<section id="section-3" class="slide level1">
+<h1></h1>
+</section>
+<section id="section-4" class="slide level1">
+<h1></h1>
+<p><img src="asamt-figures/situation.gif" alt="Cartoon of a tank aiming at a target." /></p>
+</section>
+<section id="section-5" class="slide level1">
+<h1></h1>
+<p><img src="asamt-figures/boom.gif" alt="Cartoon of a tank firing an explosive sheel at a target." /></p>
+</section>
+<section id="section-6" class="slide level1">
+<h1></h1>
+<p><img src="asamt-figures/noboom.gif" alt="Cartoon of a tank firing a dud shell at a tank." /></p>
+</section>
+<section id="section-7" class="slide level1">
+<h1></h1>
+</section>
+<section id="section-8" class="slide level1">
+<h1></h1>
+<p><img src="flagg-mtasa_files/figure-revealjs/victdataplot-1.png" width="768" style="display: block; margin: auto;" /></p>
+</section>
+<section id="section-9" class="slide level1">
+<h1></h1>
+</section>
+<section id="section-10" class="slide level1">
+<h1></h1>
+<ul>
+<li>Poisson process intensity
+<ul>
+<li><span class="math inline">\(\lambda(\mathbf{s})\)</span> events per acre</li>
+</ul></li>
+<li>Model
+<ul>
+<li><span class="math inline">\(\log\lambda(\mathbf{s}) = Z(\mathbf{s})\)</span></li>
+<li><span class="math inline">\(Z(\mathbf{s})\)</span> spatial Gaussian process</li>
+</ul></li>
+<li>Log-Gaussian Cox process (LGCP)</li>
+</ul>
+</section>
+<section id="section-11" class="slide level1">
+<h1></h1>
+<ul>
+<li>Random continuous function
+<ul>
+<li><span class="math inline">\(Z(\mathbf{s})\)</span> a Gaussian random variable</li>
+<li>Mean <span class="math inline">\(\mu\)</span></li>
+<li>Matèrn covariance function</li>
+</ul></li>
+</ul>
+</section>
+<section id="section-12" class="slide level1">
+<h1></h1>
+<ul>
+<li>Poisson process log-likelihood
+<ul>
+<li><span class="math inline">\(\ell(\lambda) = C - \int \lambda(\mathbf{s}) d\mathbf{s} + \sum \log(\lambda(\mathbf{s_{i}}))\)</span></li>
+</ul></li>
+</ul>
+</section>
+<section id="section-13" class="slide level1">
+<h1></h1>
+</section>
+<section id="section-14" class="slide level1">
+<h1></h1>
+<ul>
+<li>INLA <span class="citation" data-cites="rueetal">(H. Rue, Martino, and Chopin 2009)</span></li>
+<li>SPDE Approach <span class="citation" data-cites="lindgrenetal">(Lindgren, Rue, and Lindström 2011)</span></li>
+<li>Off the grid <span class="citation" data-cites="simpsonetal">(Simpson et al. 2016)</span></li>
+</ul>
+</section>
+<section id="section-15" class="slide level1">
+<h1></h1>
+</section>
+<section id="section-16" class="slide level1">
+<h1></h1>
+<ul>
+<li>INLA: Integrated Nested Laplace Approximation <span class="citation" data-cites="rueetal">(H. Rue, Martino, and Chopin 2009)</span></li>
+<li>Bayesian Hierarchical models
+<ul>
+<li>Many latent Gaussian variables</li>
+<li>Few parameters</li>
+</ul></li>
+</ul>
+</section>
+<section id="section-17" class="slide level1">
+<h1></h1>
+<ul>
+<li>Laplace approximation in general
+<ul>
+<li><span class="math inline">\(\int \exp[h(x)]\mathrm{d}x\)</span></li>
+<li>Taylor expansion of <span class="math inline">\(h(x)\)</span></li>
+</ul></li>
+</ul>
+</section>
+<section id="section-18" class="slide level1">
+<h1></h1>
+<ul>
+<li>Example from <span class="citation" data-cites="rinla">Blangiardo and Cameletti (2015)</span>
+<ul>
+<li><span class="math inline">\(\mathbf{y} = (y_{1}, \dots, y_{n})&#39;\)</span> independent Gaussian observations</li>
+<li><span class="math inline">\(y_{i} \sim \mathsf{N}(\theta, \sigma^{2})\)</span></li>
+<li><span class="math inline">\(\theta \sim \mathsf{N}(\mu_{0}, \sigma_{0}^{2})\)</span></li>
+<li><span class="math inline">\(\psi = 1/\sigma^{2}\)</span>, <span class="math inline">\(\psi \sim \mathrm{Gamma}(a, b)\)</span></li>
+</ul></li>
+</ul>
+</section>
+<section id="section-19" class="slide level1">
+<h1></h1>
+<ul>
+<li>The posterior distribution of <span class="math inline">\(\psi\)</span> <span class="math display">\[p(\psi|\mathbf{y}) \propto \frac{p(\mathbf{y} | \theta, \psi) p(\theta) p(\psi)}
+{p(\theta | \psi, \mathbf{y})}\]</span></li>
+</ul>
+</section>
+<section id="section-20" class="slide level1">
+<h1></h1>
+<ul>
+<li>Laplace approximation <span class="math display">\[\tilde{p}(\psi|\mathbf{y}) \propto \frac{p(\mathbf{y} | \theta, \psi) p(\theta) p(\psi)}
+{\tilde{p}_{G}(\theta^{*} | \psi, \mathbf{y})}\]</span></li>
+</ul>
+</section>
+<section id="section-21" class="slide level1">
+<h1></h1>
+<ul>
+<li>Repeat for <span class="math inline">\(\theta\)</span></li>
+<li>Will depend on <span class="math inline">\(\psi\)</span></li>
+</ul>
+</section>
+<section id="section-22" class="slide level1">
+<h1></h1>
+<ul>
+<li><code>INLA</code> package for R</li>
+<li>Provides marginal posterior
+<ul>
+<li>Not joint posterior</li>
+</ul></li>
+</ul>
+</section>
+<section id="section-23" class="slide level1">
+<h1></h1>
+</section>
+<section id="section-24" class="slide level1">
+<h1></h1>
+<p><img src="asamt-figures/grf.png" alt="Plot of a random surface in three dimensions." /></p>
+</section>
+<section id="section-25" class="slide level1">
+<h1></h1>
+<iframe width="900px" height="450px" src="asamt-figures/plotlys.html">
+</iframe>
+</section>
+<section id="section-26" class="slide level1">
+<h1></h1>
+<ul>
+<li>SPDE approach <span class="citation" data-cites="lindgrenetal">(Lindgren, Rue, and Lindström 2011)</span>
+<ul>
+<li>Choose nodes <span class="math inline">\(\mathbf{s}_{i}\)</span> to model <span class="math inline">\(Z(\mathbf{s}_{i})\)</span></li>
+<li>Build a triangular mesh</li>
+<li>Autoregressive model on the nodes</li>
+</ul></li>
+</ul>
+</section>
+<section id="section-27" class="slide level1">
+<h1></h1>
+<p><span class="math inline">\(\phantom{x + y + z = 1}\qquad x + y + z = 1\)</span></p>
+<p><img src="asamt-figures/triangle.png" alt="Diagram of a point in a triangle." /> → <img src="asamt-figures/simplex.png" alt="Diagram of a simplex." /></p>
+<p><span class="math display">\[
+f(\mathbf{s}) \approx \alpha f(1, 0, 0) + \beta f(0, 1, 0) + \gamma f(0, 0, 1)
+\]</span></p>
+</section>
+<section id="section-28" class="slide level1">
+<h1></h1>
+</section>
+<section id="section-29" class="slide level1">
+<h1></h1>
+<p><span class="math display">\[(\kappa^{2} - \Delta)^{\alpha / 2} (\tau Z(\mathbf{s})) = W(\mathbf{s})\]</span></p>
+</section>
+<section id="section-30" class="slide level1">
+<h1></h1>
+<p><img src="flagg-mtasa_files/figure-revealjs/victmeshplot-1.png" width="768" style="display: block; margin: auto;" /></p>
+</section>
+<section id="section-31" class="slide level1">
+<h1></h1>
+</section>
+<section id="section-32" class="slide level1">
+<h1></h1>
+<ul>
+<li>Log-likelihood
+<ul>
+<li><span class="math inline">\(\ell(Z) = C - \int \exp\left[Z(\mathbf{s})\right] d\mathbf{s} + \sum Z(\mathbf{s_{i}})\)</span></li>
+</ul></li>
+</ul>
+</section>
+<section id="section-33" class="slide level1">
+<h1></h1>
+<ul>
+<li><span class="citation" data-cites="simpsonetal">Simpson et al. (2016)</span>
+<ul>
+<li><span class="math inline">\(\ell(Z) \approx C - \sum_{i} \tilde{\alpha}_{i} \exp\left[\sum_{j} z_{j}\phi_{j}(\tilde{\mathbf{s}}_{i})\right] + \sum_{i} \sum_{j} z_{j}\phi_{j}(\mathbf{s_{i}})\)</span></li>
+<li>Poisson distribution</li>
+</ul></li>
+</ul>
+</section>
+<section id="section-34" class="slide level1">
+<h1></h1>
+<p><img src="flagg-mtasa_files/figure-revealjs/victpostplot-1.png" width="768" style="display: block; margin: auto;" /></p>
+</section>
+<section id="section-35" class="slide level1">
+<h1></h1>
+</section>
+<section id="references" class="slide level1 unnumbered">
+<h1>References</h1>
+<div id="refs" class="references">
+<div id="ref-rinla">
+<p>Blangiardo, Marta, and Michela Cameletti. 2015. <em>Spatial and Spatio-Temporal Bayesian Models with R-INLA</em>. Wiley.</p>
+</div>
+<div id="ref-lindgrenetal">
+<p>Lindgren, Finn, Håvard Rue, and Johan Lindström. 2011. “An Explicit Link Between Gaussian Fields and Gaussian Markov Random Fields: The Stochastic Partial Differential Equation Approach.” <em>Journal of the Royal Statistical Society: Series B (Statistical Methodology)</em> 73 (4): 423–98.</p>
+</div>
+<div id="ref-rueetal">
+<p>Rue, Håvard, Sara Martino, and Nicolas Chopin. 2009. “Approximate Bayesian Inference for Latent Gaussian Models by Using Integrated Nested Laplace Approximations.” <em>Journal of the Royal Statistical Society: Series B (Statistical Methodology)</em> 71 (2): 319–92.</p>
+</div>
+<div id="ref-simpsonetal">
+<p>Simpson, Daniel, Janine B Illian, Finn Lindgren, Sigrunn H Sørbye, and Havard Rue. 2016. “Going Off Grid: Computationally Efficient Inference for Log-Gaussian Cox Processes.” <em>Biometrika</em> 103 (1): 49–70.</p>
+</div>
+</div>
+</section>
+    </div>
+  </div>
+
+  <script src="flagg-mtasa_files/reveal.js-3.3.0.1/lib/js/head.min.js"></script>
+  <script src="flagg-mtasa_files/reveal.js-3.3.0.1/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+        // Vertical centering of slides
+        center: true,
+        // Transition style
+        transition: 'none', // none/fade/slide/convex/concave/zoom
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
+
+
+
+        // Optional reveal.js plugins
+        dependencies: [
+        ]
+      });
+    </script>
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+<script>
+  (function() {
+    if (window.jQuery) {
+      Reveal.addEventListener( 'slidechanged', function(event) {  
+        window.jQuery(event.previousSlide).trigger('hidden');
+        window.jQuery(event.currentSlide).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+
+  </body>
+</html>
