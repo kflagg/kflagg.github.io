@@ -16,7 +16,7 @@ leadership.
 
 Developed AI/ML models for enterprise clients and implemented these models
 on cloud computing platforms, including AWS and the Salesforce ecosystem.
-Lead a 2-person team on a long-term project using reinforcement learning to
+Lead a two-person team on a long-term project using reinforcement learning to
 create a next-best-action model for guiding salesperson actions. Helped design
 and implement a custom MLOps solution for automating model experiments.
 
