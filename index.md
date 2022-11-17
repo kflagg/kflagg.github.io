@@ -1,37 +1,17 @@
-# Statistical Consulting Home Page
-
-As a researcher, you need to be sure your conclusions are sound and supported
-by data. The best way to do this is to involve a statistician. As a statistical
-consultant, I want to ensure that researchers and the public make responsible
-use of data. I can provide guidance at every stage, from proposal writing and
-designing experiments, to data collection and validation, all the way to the
-final data analysis and ensuring results are communicated in an understandable
-manner.
-
-I have been collaborating with scientific and academic researchers since 2016,
-contributing to projects ranging from health surveys to animal behavior
-experiments. I also did graduate research in the statistical mapping of
-unexploded ordnance at weapons testing sites. Additionally, I have extensive
-experience with cloud computing and enterprise-scale databases, so I am
-prepared to tackle any data-related issue you may have. Have a look at my
-[CV](kflagg-cv).
-
-If you are interested in bringing me onto your project as a statistical
-practitioner, I will be happy to schedule a free no-obligation 45-minute
-consultation to discuss your needs. [Email me](mailto:flagg.ka@gmail.com) to
-get started!
+# Welcome to Kenny's Home Page
 
 
-# Resources
-
-
-## About Kenny
+## About Me
 
 When not doing statistics or data science, I am often traveling or doing swing
 and Latin dancing. However, this site is mostly about my professional
-activities.
+activities. Take a look at my [CV](kflagg-cv)
 
-- [My CV](kflagg-cv)
+I care deeply about the next generation of data practitioners with the
+knowledge they need to succeed. There were a lot of things I needed to learn
+or develop on my own throughout my education and career, so I have put together
+some [resources](computing) to get stats/DS students started with computing
+tools and methods.
 
 
 ## INLA
@@ -43,13 +23,4 @@ applying the integrated nested Laplace transform to spacial point patterns.
 - [INLA demo slides](manuscript2/presentations/inlademo.html)
 - [INLA spatial prediction vignette](manuscript2/vignettes/prediction.html)
 - [Three Minute Thesis slides](flagg-3min.html)
-
-
-## Python
-
-While working in business data science, I had to migrate from R to Python. I
-have an ongoing side project to create a curriculum for people with statistical
-training to learn to do data analysis in Python.
-
-- [Python curriculum](https://kflagg.gitbook.io/pythonds/) **(work in progress)**
 
