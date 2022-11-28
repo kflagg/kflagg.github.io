@@ -1,4 +1,9 @@
-# _Curriculum Vitae_ <br /> Kenneth Allen Flagg
+---
+title: "Curriculum Vitae - Kenneth Allen Flagg"
+permalink: "/kflagg-cv/"
+toc: true
+---
+
 
 **[flagg.ka@gmail.com](mailto:flagg.ka@gmail.com)**
 
@@ -12,7 +17,7 @@ leadership.
 
 ### [Atrium Insight](https://atrium.ai), Bozeman, MT
 
-**Senior Data Science Consultant**, August 2019–September 2022
+**Data Science Consultant**, August 2019–September 2022
 
 Developed AI/ML models for enterprise clients and implemented these models
 on cloud computing platforms, including AWS and the Salesforce ecosystem.
@@ -251,11 +256,13 @@ Document Creation: LaTeX, LibreOffice, MS Office
 
 Mathematics: Mathematica, Matlab
 
+MLOps: Great Expectations, MLFlow
+
 Operating Systems: BSD, GNU/Linux, MacOS, MS DOS, MS Windows
 
 Platforms: AWS, Heroku, SFDC/Apex
 
-Statistics: R, JAGS, Stan, SAS, Tableau
+Statistics: R, JAGS, JMP, Stan, SAS, Tableau
 
 Web: JavaScript, HTML, PHP
 
