@@ -12,10 +12,10 @@ statistics, machine learning, scientific research, event planning, and team
 leadership.
 
 
-## Work Experience
+# Work Experience
 
 
-### [Atrium Insight](https://atrium.ai), Bozeman, MT
+## [Atrium Insight](https://atrium.ai), Bozeman, MT
 
 **Data Science Consultant**, August 2019–September 2022
 
@@ -27,7 +27,7 @@ customer retention. Helped design and implement a custom MLOps solution for
 automating model experiments.
 
 
-### [Montana State University, Bozeman](https://www.montana.edu/statisticalconsulting)
+## [Montana State University, Bozeman](https://www.montana.edu/statisticalconsulting)
 
 **Graduate Research Assistant**, August 2016–May 2019
 
@@ -40,7 +40,7 @@ faculty research in areas including agriculture, population modeling,
 clinical translational research, mental health, and others.
 
 
-### [Neptune and Company, Inc.](https://www.neptuneinc.org), Lakewood, CO
+## [Neptune and Company, Inc.](https://www.neptuneinc.org), Lakewood, CO
 
 **Statistics Intern**, May 2016–July 2016
 
@@ -49,7 +49,7 @@ studies, environmental risk assessments, creating sampling plans, and
 reviewing reports.
 
 
-### [Montana State University, Bozeman](https://math.montana.edu)
+## [Montana State University, Bozeman](https://math.montana.edu)
 
 **Graduate Teaching Assistant**, August 2014–May 2016
 
@@ -60,7 +60,7 @@ statistics methods course. Courses facilitated: Precalculus, Introduction to
 Statistics, Methods for Data Analysis.
 
 
-### Red9, Manhattan Beach, CA
+## Red9, Manhattan Beach, CA
 
 **Data Analyst**, November 2013–January 2014
 
@@ -69,7 +69,7 @@ primarily using hidden Markov models implemented in R.
 
 
 
-## Education
+# Education
 
 **Ph.D., Statistics**, Montana State University, Bozeman, November 2020,
 advised by Andrew Hoegh
@@ -90,10 +90,10 @@ June 2011
 June 2011
 
 
-## Leadership and Volunteering
+# Leadership and Volunteering
 
 
-### [Downbeat Vintage Swing Society](https://downbeatswing.com), Bozeman, MT
+## [Downbeat Vintage Swing Society](https://downbeatswing.com), Bozeman, MT
 
 **Archivist**, February 2021–present
 
@@ -102,7 +102,7 @@ activities. Taught, DJed, trained volunteers, and assisted with volunteer
 recruitments for weekly social dances.
 
 
-### [SwingCats at Montana State University](https://msuswingcats.wordpress.com)
+## [SwingCats at Montana State University](https://msuswingcats.wordpress.com)
 
 **Secretary**, September 2018–June 2020
 
@@ -115,7 +115,7 @@ lead, assisted with venue booking, coordinated with instructors, and
 disseminated promotional materials for the annual Swing+ weekend workshop.
 
 
-### ASA DataFest at Montana State University
+## ASA DataFest at Montana State University
 
 **Executive Committee Member**, April 2018
 
@@ -124,7 +124,7 @@ promote the event. Supervised and mentored undergraduate and graduate
 student participants during the weekend-long data analysis competition.
 
 
-### Math Club at University of California, Riverside
+## Math Club at University of California, Riverside
 
 **Organizer**, October 2013–June 2014
 
@@ -133,7 +133,7 @@ students and faculty to present talks at club meetings, and gave math talks
 to an undergraduate audience.
 
 
-### Transfer Student Association at University of California, Riverside
+## Transfer Student Association at University of California, Riverside
 
 **Treasurer**, June 2013–May 2014
 
@@ -141,7 +141,7 @@ Assisted with planning and promotion of club events. Worked with the
 university to ensure the organization continued to be funded.
 
 
-## Professional Certifications
+# Professional Certifications
 
 **Tableau Desktop Certified Associate**, awarded December 2019
 
@@ -150,7 +150,7 @@ university to ensure the organization continued to be funded.
 **Salesforce Certified Administrator**, awarded September 2019
 
 
-## Publications
+# Publications
 
 **Flagg, K.A.** and Hoegh, A.B. 2022. ["The integrated nested Laplace approximation applied to spatial log-Gaussian Cox process models"](https://doi.org/10.1080/02664763.2021.2023116). _Journal of Applied Statistics_ online article.
 
@@ -172,7 +172,7 @@ _Journal of Agriculture, Food Systems, and Community Development_, 9(B),
 Statistics M.S. writing project, Montana State University, Bozeman.
 
 
-## Presentations
+# Presentations
 
 **Flagg, K.A.**. October 2019. "Practical Application of Spatial Point
 Process Models: The SPDE Approach". Montana Chapter of the ASA Annual
@@ -205,7 +205,7 @@ Recognition". Math Club, University of California, Riverside.
 Math Club, University of California, Riverside.
 
 
-## Posters
+# Posters
 
 Barbour, C.R., **Flagg, K.A.**, Lin, L.S., Mack, A.L., Powell, M.M.,
 Tran, T.V., and Walsh, S.J. February 2018. "Reproducible research
@@ -223,28 +223,28 @@ Zhang, H. April 2017. "Statistical Consulting and Research Services: Past,
 Present, and Future". Student Research Celebration, Montana State University.
 
 
-## Awards
+# Awards
 
 
-### Honors
+## Honors
 
 Outstanding Graduate Student Award, Department of Mathematical Sciences,
 Montana State University.
 
 
-### Fellowships and Scholarships
+## Fellowships and Scholarships
 
 Gary G. Sackett Award, 2019, Department of Mathematical Sciences,
 Montana State University.
 
 
-### Travel Awards
+## Travel Awards
 
 Gary G. Sackett Student Research Travel Grant, 2018.
 CBMS Regional Conference on Spatial Statistics travel funding, 2017.
 
 
-## Software and Programming Languages
+# Software and Programming Languages
 
 General: Bash, C/C++, Git, Python, SVN
 
