@@ -8,7 +8,7 @@ I put in a lot of effort to learn the tools I use, and I want to make it
 easier for the next generation.
 
 
-# Python
+## Python
 
 While working in business data science, I had to migrate from R to Python. I
 have an ongoing side project to create a curriculum for people with statistical
@@ -17,7 +17,7 @@ training to learn to do data analysis in Python.
 - [Python curriculum](https://kflagg.gitbook.io/pythonds/) **(work in progress)**
 
 
-# R
+## R
 
 - Tutorial on [fitting spatial LGCP models](https://doi.org/10.1080/02664763.2021.2023116)
   with R-INLA and a finite element (SPDE) approximation.
