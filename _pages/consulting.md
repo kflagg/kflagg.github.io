@@ -1,4 +1,8 @@
-# Statistical Consulting Home Page
+---
+title: "Statistical Consulting"
+permalink: "/consulting/"
+---
+
 
 **I am not currently taking new freelance consulting clients, but I am happy
 to assess your needs and provide a referral to another statistics

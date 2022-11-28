@@ -1,4 +1,8 @@
-# Welcome to Kenny's Home Page
+---
+title: "Welcome to Kenny's Home Page"
+layout: home
+author_profile: true
+---
 
 
 ## About Me
@@ -13,6 +17,21 @@ or develop on my own throughout my education and career, so I have put together
 some [resources](computing) to get stats/DS students started with computing
 tools and methods.
 
+Since completing my degree, I have been working in industry and not actively
+participating in academic research. This website exists to support those who
+may want to build upon my work.
+
+
+## Mapping Spatial Point Process Intensity
+
+My [dissertation](https://scholarworks.montana.edu/xmlui/handle/1/16040) is
+about models and sampling designs for mapping point intensity across space
+when only events in swathes along a path are observed. Some additional
+resources are:
+- Chapter 2: [PoisDPMix](https://github.com/kflagg/poisDPmix) R package
+- Chapter 3: [Example code](https://github.com/kflagg/jas-inla-review) for fitting LGCP models in R
+- Chapter 4: [Data visualization gallery](manuscript2/graphics)
+  - I created that from scratch in JavaScript!
 
 ## INLA
 

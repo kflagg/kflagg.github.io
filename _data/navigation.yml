@@ -1,0 +1,7 @@
+main:
+  - title: "Computing"
+    url: "/computing/"
+  - title: "Consulting"
+    url: "/consulting/"
+  - title: "CV"
+    url: "/kflagg-cv/"
