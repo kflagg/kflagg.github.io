@@ -10,8 +10,8 @@ easier for the next generation.
 
 ## Python
 
-While working in business data science, I had to migrate from R to Python. I
-have an ongoing side project to create a curriculum for people with statistical
+While working in business data science, I migrated from R to Python. I have an
+ongoing side project to create a curriculum for people with statistical
 training to learn to do data analysis in Python.
 
 - [Python curriculum](https://kflagg.gitbook.io/pythonds/) **(work in progress)**

@@ -5,9 +5,7 @@ toc: true
 ---
 
 
-**[flagg.ka@gmail.com](mailto:flagg.ka@gmail.com)**
-
-Self-directed learner and thoughtful communicator with experience in
+I am a self-directed learner and thoughtful communicator with experience in
 statistics, machine learning, scientific research, event planning, and team
 leadership.
 
