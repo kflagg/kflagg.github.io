@@ -16,5 +16,5 @@ some [resources](computing) to get stats/DS students started with computing
 tools and methods.
 
 Since completing my degree, I have been working in industry and not actively
-participating in academic research. This website exists to support those who
-may want to build upon my work.
+participating in academic research. This website exists primarily to support
+those who want to build upon my past academic work.

@@ -22,7 +22,7 @@ training to learn to do data analysis in Python.
 - Tutorial on [fitting spatial LGCP models](https://doi.org/10.1080/02664763.2021.2023116)
   with R-INLA and a finite element (SPDE) approximation.
   - [Example code](https://github.com/kflagg/jas-inla-review)
-- [PoisDPMix](https://github.com/kflagg/poisDPmix), an R package for fitting
+- [PoisDPmix](https://github.com/kflagg/poisDPmix), an R package for fitting
   infinite mixtures of Gaussians to partially-observed spatial point pattern
   data.
   - The code and documentation are in a poor state as I do not expect this to

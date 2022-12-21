@@ -21,8 +21,7 @@ contributing to projects ranging from health surveys to animal behavior
 experiments. I also did graduate research in the statistical mapping of
 unexploded ordnance at weapons testing sites. Additionally, I have extensive
 experience with cloud computing and enterprise-scale databases, so I am
-prepared to tackle any data-related issue you may have. Have a look at my
-[CV](kflagg-cv).
+prepared to tackle any data-related issue you may have.
 
 If you are interested in bringing me onto your project as a statistical
 practitioner, I will be happy to schedule a free no-obligation 45-minute

@@ -8,7 +8,7 @@ My primary interest is in geospatial data. Specifically, I think about spatial
 point patterns, how to design sampling plans to observe point pattern data,
 and fitting point process models to incompletely-observed point patterns.
 
-I currently work in industry and a note actively pursuing academic research.
+I currently work in industry and am not actively pursuing academic research.
 However, if my work helps you, I would love to hear from you! I am also
 interested in peer-reviewing manuscripts.
 
@@ -24,11 +24,11 @@ observed. I used a spatial LGCP model fit via INLA and the SPDE approximation
 to predict the intensity surface over the site. My conclusion is that paths
 with lots of "zigzagging" (_sure to become a popular technical term..._) do a
 good job of ensuring that every location in the site is close to some part of
-the path and lead to predictions that perform well on most performance
-meaningful statistics.
+the path and lead to predictions that perform well on most meaningful
+performance statistics.
 
 I created a [gallery](https://kflagg.github.io/manuscript2/graphics/) of plots
-to help understand the
+to help understand the massive volume of simulation output.
 
 My results were plagued with model fits that failed to converge due to poor
 choice of finite element mesh. Further investigation of mesh construction is a
@@ -40,7 +40,7 @@ tackle this.
 
 I wrote a [tutorial](https://doi.org/10.1080/02664763.2021.2023116) on fitting
 spatial log-Gaussian Cox process models using with R-INLA and a finite element
-(SPDE) approximation. Such models are be rather nontrivial to set up and there
+(SPDE) approximation. Such models are rather nontrivial to set up and there
 was very little documentation available before I wrote this. I released
 accompanying [example code](https://github.com/kflagg/jas-inla-review).
 
@@ -51,7 +51,7 @@ My first foray into spatial point process models was working with magnetometer
 data from unexploded ordnance remediation projects. The sites I focused on were
 domestic training/testing ranges where repeated firing at stationary targets
 justified a mixture of normally-distributed hotspots. I published a study using
-a [Dirichlet process infinite mixture](https://doi.org/10.1007/s13253-020-00387-2).
+a [Dirichlet process infinite mixture model](https://doi.org/10.1007/s13253-020-00387-2).
 Ultimately, the computing time was prohibitively large, and the posterior
 mixture contained too many redundant components to be useful (i.e. the model is
 prone to overfitting). I recommend the equally useful and computationally

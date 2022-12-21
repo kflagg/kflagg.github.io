@@ -13,6 +13,13 @@ leadership.
 # Work Experience
 
 
+## [Vizion](https://vizionapi.com), remote
+
+**Data Scientist**, December 2022–present
+
+Using data to improve the quality of ocean freight tracking.
+
+
 ## [Atrium Insight](https://atrium.ai), Bozeman, MT
 
 **Data Science Consultant**, August 2019–September 2022
