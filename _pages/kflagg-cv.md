@@ -17,7 +17,9 @@ leadership.
 
 **Data Scientist**, December 2022–present
 
-Using data to improve the quality of ocean freight tracking.
+Identified gaps in container tracking data and implemented data-driven
+solutions to fill those gaps, increase data usability, and improve data
+quality.
 
 
 ## [Atrium Insight](https://atrium.ai), Bozeman, MT
@@ -157,7 +159,7 @@ university to ensure the organization continued to be funded.
 
 # Publications
 
-**Flagg, K.A.** and Hoegh, A.B. 2022. ["The integrated nested Laplace approximation applied to spatial log-Gaussian Cox process models"](https://doi.org/10.1080/02664763.2021.2023116). _Journal of Applied Statistics_ online article.
+**Flagg, K.A.** and Hoegh, A.B. 2023. ["The integrated nested Laplace approximation applied to spatial log-Gaussian Cox process models"](https://doi.org/10.1080/02664763.2021.2023116). _Journal of Applied Statistics_ 50(5), 1128--1151.
 
 **Flagg, K.A.** 2020. _[Bayesian Computing and Sampling Design for Partially-Surveyed Spatial Point Process Models](https://scholarworks.montana.edu/xmlui/handle/1/16040)_,
 Statistics Ph.D. dissertation, Montana State University, Bozeman.
