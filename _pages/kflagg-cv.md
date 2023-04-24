@@ -106,7 +106,7 @@ June 2011
 
 Took meeting minutes and maintained records of the board of directors'
 activities. Taught, DJed, trained volunteers, and assisted with volunteer
-recruitments for weekly social dances.
+recruitment for weekly social dances.
 
 
 ## [SwingCats at Montana State University](https://msuswingcats.wordpress.com)
@@ -119,7 +119,7 @@ social media, graphic design, and coordinating with external organizations.
 Taught, DJed, and recruited volunteers for weekly social dances. Assisted in
 planning and ticketing special events and lesson series. Served as logistics
 lead, assisted with venue booking, coordinated with instructors, and
-disseminated promotional materials for the annual Swing+ weekend workshop.
+disseminated promotional materials for the annual Swing+ weekend festival.
 
 
 ## ASA DataFest at Montana State University
@@ -205,6 +205,7 @@ Presentations, University of California, Riverside.
 
 **Flagg, K.A.** April 2014. "Groups in Music Theory". Math Club,
 University of California, Riverside.
+
 **Flagg, K.A.** January 2014. "Eigenfaces: Dimensionality Reduction for Face
 Recognition". Math Club, University of California, Riverside.
 
