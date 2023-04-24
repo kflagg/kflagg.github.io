@@ -254,23 +254,24 @@ CBMS Regional Conference on Spatial Statistics travel funding, 2017.
 
 # Software and Programming Languages
 
-General: Bash, C/C++, Git, Python, SVN
+**General**: Bash, C/C++, Git, Python, SVN
 
-Business: Salesforce
+**Business**: Salesforce
 
-Database: MS Access, SQL
+**Cloud Platforms**: AWS, Heroku, SFDC/Apex
 
-Document Creation: LaTeX, LibreOffice, MS Office
+**Database**: MS Access, PostgreSQL
 
-Mathematics: Mathematica, Matlab
+**Document Creation**: Google Docs, LaTeX, LibreOffice, MS Office
 
-MLOps: Great Expectations, MLFlow
+**Mathematics**: Mathematica, Matlab, NumPy
 
-Operating Systems: BSD, GNU/Linux, MacOS, MS DOS, MS Windows
+**MLOps**: DVC, Great Expectations, MLFlow
 
-Platforms: AWS, Heroku, SFDC/Apex
+**Operating Systems**: BSD, GNU/Linux, MacOS, MS DOS, MS Windows
 
-Statistics: R, JAGS, JMP, Stan, SAS, Tableau
+**Statistics/Data Analysis**: R, JAGS, JMP, Pandas, SciKit-Learn, Stan,
+Statsmodels, SAS, Tableau
 
-Web: JavaScript, HTML, PHP
+**Web**: JavaScript, HTML, PHP
 
