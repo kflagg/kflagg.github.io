@@ -102,7 +102,7 @@ June 2011
 
 ## [Downbeat Vintage Swing Society](https://downbeatswing.com), Bozeman, MT
 
-**Archivist**, February 2021–present
+**Archivist**, February 2021–January 2024
 
 Took meeting minutes and maintained records of the board of directors'
 activities. Taught, DJed, trained volunteers, and assisted with volunteer
@@ -260,7 +260,7 @@ CBMS Regional Conference on Spatial Statistics travel funding, 2017.
 
 **Cloud Platforms**: AWS, Heroku, SFDC/Apex
 
-**Database**: MS Access, PostgreSQL
+**Data Storage**: MS Access, PostgreSQL, Snowflake
 
 **Document Creation**: Google Docs, LaTeX, LibreOffice, MS Office
 
