@@ -15,11 +15,12 @@ leadership.
 
 ## [Vizion](https://vizionapi.com), remote
 
-**Data Scientist**, December 2022–present
+**Data Scientist**, December 2022–March 2024
 
 Identified gaps in container tracking data and implemented data-driven
 solutions to fill those gaps, increase data usability, and improve data
-quality.
+quality. The were primarily built in AWS using Python, PostgreSQL, and
+Snowflake.
 
 
 ## [Atrium Insight](https://atrium.ai), Bozeman, MT
