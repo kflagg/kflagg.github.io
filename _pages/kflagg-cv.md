@@ -6,8 +6,8 @@ toc: true
 
 
 I am a self-directed learner and thoughtful communicator with experience in
-statistics, machine learning, scientific research, event planning, and team
-leadership.
+statistics, machine learning, data engineering, scientific research, event
+planning, and peer team leadership.
 
 
 # Work Experience
@@ -18,9 +18,9 @@ leadership.
 **Data Scientist**, December 2022–March 2024
 
 Identified gaps in container tracking data and implemented data-driven
-solutions to fill those gaps, increase data usability, and improve data
-quality. The were primarily built in AWS using Python, PostgreSQL, and
-Snowflake.
+solutions to fill those gaps, increase data usability, improve data
+quality, and detect right of shipment delay. The were primarily built in AWS
+ using Python, PostgreSQL, Snowflake, and Tableau.
 
 
 ## [Atrium Insight](https://atrium.ai), Bozeman, MT
