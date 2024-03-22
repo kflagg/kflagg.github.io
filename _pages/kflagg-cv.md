@@ -19,8 +19,8 @@ planning, and peer team leadership.
 
 Identified gaps in container tracking data and implemented data-driven
 solutions to fill those gaps, increase data usability, improve data
-quality, and detect right of shipment delay. The were primarily built in AWS
- using Python, PostgreSQL, Snowflake, and Tableau.
+quality, and detect likelihood of shipment delay. The were primarily built in
+AWS using Python, PostgreSQL, Snowflake, and Tableau.
 
 
 ## [Atrium Insight](https://atrium.ai), Bozeman, MT
