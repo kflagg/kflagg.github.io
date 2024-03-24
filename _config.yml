@@ -117,7 +117,7 @@ author:
       # url: "mailto:flagg.ka@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://linktr.ee/cmkrcs1"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -137,6 +137,9 @@ footer:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:flagg.ka@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://linktr.ee/cmkrcs1"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
