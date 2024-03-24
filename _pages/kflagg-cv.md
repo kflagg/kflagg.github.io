@@ -22,6 +22,10 @@ solutions to fill those gaps, increase data usability, improve data
 quality, and detect likelihood of shipment delay. The were primarily built in
 AWS using Python, PostgreSQL, Snowflake, and Tableau.
 
+<!-- GH actions, pydantic to bring strong typing, pytests, built our teams
+most robust crawler (20000 records per day) when we added API connections to
+new sources -->
+
 
 ## [Atrium Insight](https://atrium.ai), Bozeman, MT
 
@@ -33,6 +37,11 @@ Lead a two-person team on a long-term project using reinforcement learning to
 create a next-best-action model for guiding salesperson actions to improve
 customer retention. Helped design and implement a custom MLOps solution for
 automating model experiments.
+
+<!-- identified ways to transform a client's datalake from "let's dump all the
+data there and figure out what any will do with this" to a robust, versionable
+system used routinely by data scientists to obtain historic data for specific,
+current needs -->
 
 
 ## [Montana State University, Bozeman](https://www.montana.edu/statisticalconsulting)

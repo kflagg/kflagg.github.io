@@ -16,6 +16,8 @@ training to learn to do data analysis in Python.
 
 - [Python curriculum](https://kflagg.gitbook.io/pythonds/) **(work in progress)**
 
+<!-- python envs, typing, deployment -->
+
 
 ## R
 
