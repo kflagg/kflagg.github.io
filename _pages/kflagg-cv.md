@@ -19,12 +19,18 @@ planning, and peer team leadership.
 
 Identified gaps in container tracking data and implemented data-driven
 solutions to fill those gaps, increase data usability, improve data
-quality, and detect likelihood of shipment delay. The were primarily built in
-AWS using Python, PostgreSQL, Snowflake, and Tableau.
+quality, and detect likelihood of shipment delay.
 
-<!-- GH actions, pydantic to bring strong typing, pytests, built our teams
-most robust crawler (20000 records per day) when we added API connections to
-new sources -->
+Built our team's most robust crawler (20000 records per day) when we added
+API connections to a new set of sources.
+
+Tools used:
+
+- AWS (Step Functions, Lambda, Eventbridge, S3, others)
+- Python, Pandas, SQLAlchemy, Poetry, Pydantic, Pytest, Alembic
+- PostgresSQL, Snowflake
+- Tableau
+- GitHub Actions
 
 
 ## [Atrium Insight](https://atrium.ai), Bozeman, MT
@@ -35,13 +41,24 @@ Developed AI/ML models for enterprise clients and implemented these models
 on cloud computing platforms, including AWS and the Salesforce ecosystem.
 Lead a two-person team on a long-term project using reinforcement learning to
 create a next-best-action model for guiding salesperson actions to improve
-customer retention. Helped design and implement a custom MLOps solution for
-automating model experiments.
+customer retention.
 
-<!-- identified ways to transform a client's datalake from "let's dump all the
-data there and figure out what any will do with this" to a robust, versionable
-system used routinely by data scientists to obtain historic data for specific,
-current needs -->
+Helped design and implement a custom MLOps solution for automating model
+experiments, improving collaboration when multiple data scientists needed
+to work simultaneously.
+
+Identified ways to transform a client's datalake from "let's dump all the
+data there and figure out what anyone will do with this" to a robust,
+versionable system used routinely by data scientists to obtain historic data
+for specific, current needs.
+
+Tools used
+
+- AWS (EC2, Lambda, S3, Sagemaker)
+- Python, Pandas, Numpy, Plot9, MLFlow
+- PostgreSQL, Dremio
+- R, Dplyr, GGPlot2
+- Saleforce (Lightning and Classic), Einstein Discovery, Apex
 
 
 ## [Montana State University, Bozeman](https://www.montana.edu/statisticalconsulting)
@@ -56,6 +73,10 @@ improve consulting standard operating procedures. Supported MSU student and
 faculty research in areas including agriculture, population modeling,
 clinical translational research, mental health, and others.
 
+Tools used:
+
+- R, Dplyr, GGPlo2, SAS, JMP, Knitr
+
 
 ## [Neptune and Company, Inc.](https://www.neptuneinc.org), Lakewood, CO
 
@@ -65,6 +86,12 @@ Assisted Ph.D. statisticians with statistical analyses including simulation
 studies, environmental risk assessments, creating sampling plans, and
 reviewing reports.
 
+Tools used:
+
+- R, Dplyr, GGPlot2
+- GNU Science Library
+- Visual Sample Plan
+
 
 ## [Montana State University, Bozeman](https://math.montana.edu)
 
@@ -73,8 +100,13 @@ reviewing reports.
 Lead instructor for undergraduate mathematics and statistics courses, in
 both traditional lecture format and student-led small group activities. Lab
 assistant for a mixed upper-division undergraduate/first-year graduate
-statistics methods course. Courses facilitated: Precalculus, Introduction to
-Statistics, Methods for Data Analysis.
+statistics methods course.
+
+Courses facilitated:
+
+- Precalculus
+- Introduction to Statistics
+- Methods for Data Analysis
 
 
 ## Red9, Manhattan Beach, CA
@@ -84,6 +116,9 @@ Statistics, Methods for Data Analysis.
 Tested and evaluated algorithms for classifying events in time series data,
 primarily using hidden Markov models implemented in R.
 
+Tools used:
+
+- R
 
 
 # Education

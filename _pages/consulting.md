@@ -4,10 +4,6 @@ permalink: "/consulting/"
 ---
 
 
-**I am not currently taking new freelance consulting clients, but I am happy
-to assess your needs and provide a referral to another statistics
-practitioner.**
-
 As a researcher, you need to be sure your conclusions are sound and supported
 by data. The best way to do this is to involve a statistician. As a statistical
 consultant, I want to ensure that researchers and the public make responsible
@@ -21,7 +17,9 @@ contributing to projects ranging from health surveys to animal behavior
 experiments. I also did graduate research in the statistical mapping of
 unexploded ordnance at weapons testing sites. Additionally, I have extensive
 experience with cloud computing and enterprise-scale databases, so I am
-prepared to tackle any data-related issue you may have.
+prepared to tackle any data-related issue you may have, from establishing
+robust ingestion processes to automating training and use of predictive models,
+and providing real-time alerts to their performance.
 
 If you are interested in bringing me onto your project as a statistical
 practitioner, I will be happy to schedule a free no-obligation 45-minute
