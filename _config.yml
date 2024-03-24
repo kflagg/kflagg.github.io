@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "K.A. Flagg"
-  avatar           : "kflagg-portrait.jpg"
+  avatar           : "_assets/images/kflagg-portrait.jpg"
   bio              : "Data Scientist : Statistician : Dancer : Aspiring Nomad : Amateur Musician"
   location         : "Bozeman, MT"
   email            : "flagg.ka@gmail.com"
