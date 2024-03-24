@@ -21,8 +21,8 @@ Identified gaps in container tracking data and implemented data-driven
 solutions to fill those gaps, increase data usability, improve data
 quality, and detect likelihood of shipment delay.
 
-Built our team's most robust crawler (20000 records per day) when we added
-API connections to a new set of sources.
+Built one of our team's most robust crawlers (10000 records per day) when we
+added API connections for a new set of data sources.
 
 Tools used:
 
@@ -70,12 +70,12 @@ clients, provided research design guidance, performed analyses, created data
 visualizations, wrote reports, and learned new software/methods as necessary.
 Mentored other graduate student consultants and worked with administration to
 improve consulting standard operating procedures. Supported MSU student and
-faculty research in areas including agriculture, population modeling,
-clinical translational research, mental health, and others.
+faculty research in areas including agriculture, plant and animal population
+modeling, clinical translational research, mental health, and others.
 
 Tools used:
 
-- R, Dplyr, GGPlo2, SAS, JMP, Knitr
+- R, Dplyr, GGPlot2, SAS, JMP, Knitr
 
 
 ## [Neptune and Company, Inc.](https://www.neptuneinc.org), Lakewood, CO
@@ -151,7 +151,8 @@ June 2011
 
 Took meeting minutes and maintained records of the board of directors'
 activities. Taught, DJed, trained volunteers, and assisted with volunteer
-recruitment for weekly social dances.
+recruitment for weekly social dances. Served as logistics lead and instructor
+coordinator for the Big Sky Swing Out weekend festival.
 
 
 ## [SwingCats at Montana State University](https://msuswingcats.wordpress.com)
@@ -299,13 +300,13 @@ CBMS Regional Conference on Spatial Statistics travel funding, 2017.
 
 # Software and Programming Languages
 
-**General**: Bash, C/C++, Git, Python, SVN
+**General**: Bash, C/C++, Git, Python
 
 **Business**: Salesforce
 
-**Cloud Platforms**: AWS, Heroku, SFDC/Apex
+**Cloud Platforms**: AWS, SFDC/Apex
 
-**Data Storage**: MS Access, PostgreSQL, Snowflake
+**Data Storage**: PostgreSQL, Snowflake, Dremio
 
 **Document Creation**: Google Docs, LaTeX, LibreOffice, MS Office
 

@@ -6,7 +6,7 @@ permalink: "/consulting/"
 
 As a researcher, you need to be sure your conclusions are sound and supported
 by data. The best way to do this is to involve a statistician. As a statistical
-consultant, I want to ensure that researchers and the public make responsible
+collaborator, I want to ensure that researchers and the public make responsible
 use of data. I can provide guidance at every stage, from proposal writing and
 designing experiments, to data collection and validation, all the way to the
 final data analysis and ensuring results are communicated in an understandable
