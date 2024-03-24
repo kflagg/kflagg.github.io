@@ -7,7 +7,7 @@ author_profile: true
 
 When not doing statistics or data science, I am often traveling or doing swing
 and Latin dancing. However, this site is mostly about my professional
-activities. Take a look at my [CV](kflagg-cv).
+activities. I am currently taking on [consulting collaborators](consulting).
 
 I care deeply about empowering the next generation of data practitioners with
 the knowledge they need to succeed. There were a lot of things I learned or
