@@ -24,8 +24,8 @@ to automating training and use of predictive models, and providing real-time
 alerts to their performance. I am also versed in writing requirements and
 user stories should the implementation need to be handed off.
 
-If you are interested in bringing me onto your project as a statistics or data
-science practitioner, I will be happy to schedule a free no-obligation
+If you are interested in bringing me onto your project as a statistician or
+data science practitioner, I will be happy to schedule a free no-obligation
 45-minute consultation to discuss your needs.
 [Email me](mailto:flagg.ka@gmail.com) to get started!
 
