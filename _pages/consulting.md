@@ -15,14 +15,17 @@ manner.
 I have been collaborating with scientific and academic researchers since 2016,
 contributing to projects ranging from health surveys to animal behavior
 experiments. I also did graduate research in the statistical mapping of
-unexploded ordnance at weapons testing sites. Additionally, I have extensive
-experience with cloud computing and enterprise-scale databases, so I am
-prepared to tackle any data-related issue you may have, from establishing
-robust ingestion processes to automating training and use of predictive models,
-and providing real-time alerts to their performance.
+unexploded ordnance at weapons testing sites.
 
-If you are interested in bringing me onto your project as a statistical
-practitioner, I will be happy to schedule a free no-obligation 45-minute
-consultation to discuss your needs. [Email me](mailto:flagg.ka@gmail.com) to
-get started!
+Furthermore, since 2019 I have gained extensive experience with cloud
+computing and enterprise-scale databases, so I am prepared to tackle any
+data-related issue you may have, from establishing robust ingestion processes
+to automating training and use of predictive models, and providing real-time
+alerts to their performance. I am also versed in writing requirements and
+user stories should the implementation need to be handed off.
+
+If you are interested in bringing me onto your project as a statistics or data
+science practitioner, I will be happy to schedule a free no-obligation
+45-minute consultation to discuss your needs.
+[Email me](mailto:flagg.ka@gmail.com) to get started!
 

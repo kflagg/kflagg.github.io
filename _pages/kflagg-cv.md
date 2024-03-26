@@ -47,8 +47,7 @@ Helped design and implement a custom MLOps solution for automating model
 experiments, improving collaboration when multiple data scientists needed
 to work simultaneously.
 
-Identified ways to transform a client's datalake from "let's dump all the
-data there and figure out what anyone will do with this" to a robust,
+Identified ways to transform a client's unstructured datalake into a robust,
 versionable system used routinely by data scientists to obtain historic data
 for specific, current needs.
 

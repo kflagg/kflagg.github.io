@@ -8,7 +8,7 @@ My primary interest is in geospatial data. Specifically, I think about spatial
 point patterns, how to design sampling plans to observe point pattern data,
 and fitting point process models to incompletely-observed point patterns.
 
-I currently work in industry and am not actively pursuing academic research.
+At the present, I am not actively pursuing my own academic research.
 However, if my work helps you, I would love to hear from you! I am also
 interested in peer-reviewing manuscripts.
 
@@ -19,8 +19,8 @@ Chapter 4 of my
 [dissertation](https://scholarworks.montana.edu/xmlui/handle/1/16040) used a
 simulation study to compare several methods of constructing paths to traverse
 around a site when data collection is such that all events within a radius of
-the path will be observed and all events beyond that radius will _not_ be
-observed. I used a spatial LGCP model fit via INLA and the SPDE approximation
+the path will be observed and all events beyond that radius will be
+unobserved. I used a spatial LGCP model fit via INLA and the SPDE approximation
 to predict the intensity surface over the site. My conclusion is that paths
 with lots of "zigzagging" (_sure to become a popular technical term..._) do a
 good job of ensuring that every location in the site is close to some part of
