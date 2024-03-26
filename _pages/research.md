@@ -45,6 +45,12 @@ was very little documentation available before I wrote this. I released
 accompanying [example code](https://github.com/kflagg/jas-inla-review).
 
 
+You may also be interested in a
+[vignette](../manuscript2/vignettes/prediction.html) of some exploration that
+lead up to this work, as well as my
+[three minute thesis slides](../flagg-3min.html).
+
+
 ## DP Infinite Mixture Models
 
 My first foray into spatial point process models was working with magnetometer
