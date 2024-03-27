@@ -18,7 +18,8 @@ some [resources](computing) to get stats/DS students started with computing
 tools and methods.
 
 Since completing my degree, I have primarily worked in industry and not been
-actively participating in academic research. Sections of this website exist to
-support those who want to build upon my past academic work. I am an alumnus of
-Bozeman Environmental and Ecological Statistics; you can find more about their
-current research at [the BEES website](https://bozemanenvrstat.github.io).
+actively participating in academic research. A [section](research) of this
+website exists to support those who want to build upon my past academic work.
+I am an alumnus of Bozeman Environmental and Ecological Statistics; you can
+find more about their current research at
+[the BEES website](https://bozemanenvrstat.github.io).
