@@ -21,8 +21,8 @@ Identified gaps in container tracking data and implemented data-driven
 solutions to fill those gaps, increase data usability, improve data
 quality, and detect likelihood of shipment delay.
 
-Built one of our team's most robust crawlers (10000 records per day) when we
-added API connections for a new set of data sources.
+Built one of the analytics layer's most robust crawlers (10000 records per
+day) when API connections were added for a new set of data sources.
 
 Tools used:
 
@@ -33,7 +33,7 @@ Tools used:
 - GitHub Actions
 
 
-## [Atrium Insight](https://atrium.ai), Bozeman, MT
+## [Atrium](https://atrium.ai), Bozeman, MT
 
 **Data Science Consultant**, August 2019–September 2022
 

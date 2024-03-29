@@ -4,13 +4,13 @@ permalink: "/consulting/"
 ---
 
 
-As a researcher, you need to be sure your conclusions are sound and supported
-by data. The best way to do this is to involve a statistician. As a statistical
-collaborator, I want to ensure that researchers and the public make responsible
-use of data. I can provide guidance at every stage, from proposal writing and
-designing experiments, to data collection and validation, all the way to the
-final data analysis and ensuring results are communicated in an understandable
-manner.
+As a researcher or analyst, you need to be sure your conclusions are sound and
+supported by data. The best way to do this is to involve a statistician. As a
+statistical collaborator, I want to ensure that researchers and the public
+make responsible use of data. I can provide guidance at every stage, from
+proposal writing and designing experiments, to data collection and validation,
+all the way to the final data analysis and ensuring results are communicated
+in an understandable manner.
 
 I have been collaborating with scientific and academic researchers since 2016,
 contributing to projects ranging from health surveys to animal behavior
@@ -24,8 +24,9 @@ to automating training and use of predictive models, and providing real-time
 alerts to their performance. I am also versed in writing requirements and
 user stories should the implementation need to be handed off.
 
+You can have a look at my [CV](../kflagg-cv) for details of my past work.
 If you are interested in bringing me onto your project as a statistician or
 data science practitioner, I will be happy to schedule a free no-obligation
-45-minute consultation to discuss your needs.
+one-hour consultation to discuss your needs.
 [Email me](mailto:flagg.ka@gmail.com) to get started!
 
