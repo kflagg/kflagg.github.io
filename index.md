@@ -1,14 +1,14 @@
 ---
-title: "Welcome to Kenny's Home Page"
+title: "Welcome to Kenny Home Page"
 layout: home
 author_profile: true
 ---
 
 Welcome! I am a freelance statistics and data science consultant, currently
-currently taking on [consulting collaborators](consulting). I have broad
+currently taking on [consulting projects](consulting). I have broad
 experience in both scientific research and the tech sector and I am especially
 interested in helping small or growing teams establish repeatable processes and
-complete analyses.
+complete their analyses.
 
 When not working with data, I am often traveling or doing swing and Latin
 dancing. However, this site is mostly about my professional activities.
