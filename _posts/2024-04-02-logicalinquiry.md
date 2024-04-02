@@ -43,15 +43,15 @@ very first thing done: looked at the data!
 
 I flattened an extract and sorted, keeping data from the same chunks together,
 and keeping related chunks next to each other. My eyes immediately saw a very
-clear pattern and simple pattern. I coded an indicator for that pattern and
-found that it would filter out over 90% of the irrelevant data. I reported
-what I had found, an engineer spent less than a day implementing a filter
-based on this pattern, and the problem was considered as good as solved. No
-predictive model necessary, and I was lauded as a hero.
+clear and simple pattern. I coded an indicator for that pattern and found that
+it would filter out over 90% of the irrelevant data. I reported what I had
+found, an engineer spent less than a day implementing a filter based on this
+pattern, and the problem was considered as good as solved. No predictive
+model necessary, and I was lauded as a hero.
 
 I actuality, I had simply gotten lucky that there was an easy solution. My
 contribution was starting from the beginning: asking "What do we actually know
-about the data?" And because the answer was "very little", I looked at some
+about the data?" And because the answer was "very little" I looked at some
 data.
 
 
@@ -74,7 +74,7 @@ during which no useful model training and minimal data analysis occurred.
 
 What data analysis did happen was focused on identifying a scenario where the
 set of possible actions was small and the state of an account could be
-represented very simply. Once I got to any such a case, the problem was so
+represented very simply. Once I got to any such case, the problem was so
 simple that any sales rep could say exactly what to do. So the benchmark was
 to show that RL could perform comparably to a human, and the effort was
 justified by training the model with data from accounts worked by experienced
