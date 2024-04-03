@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Kenny Home Page"
+title: "Welcome to Kenny's Home Page"
 layout: home
 author_profile: true
 ---
