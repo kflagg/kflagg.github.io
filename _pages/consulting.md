@@ -10,7 +10,9 @@ permalink: "/consulting/"
 Whatever your business, if you use data to make decisions, you need to ensure
 your data pipelines are reliable, your data quality is known, and that any
 analytics or data science efforts are based in tangible business questions and
-implemented using appropriate tools. I am prepared to tackle any
+implemented using appropriate tools. My previous projects cover the spectrum of
+business intelligence, from defining and reporting KPIs to deal forecasting and
+lead prioritization to designing matching engines. I am prepared to tackle any
 data-related issue you may have, from establishing robust ingestion processes
 to automating training and use of predictive models, and providing real-time
 alerts to their performance. I am also versed in writing requirements and
