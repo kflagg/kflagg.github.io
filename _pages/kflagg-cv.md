@@ -301,9 +301,9 @@ CBMS Regional Conference on Spatial Statistics travel funding, 2017.
 
 **General**: Bash, C/C++, Git, Python
 
-**Business**: Salesforce
-
 **Cloud Platforms**: AWS, SFDC/Apex
+
+**CRM**: Salesforce
 
 **Data Storage**: PostgreSQL, Snowflake, Dremio
 
@@ -318,5 +318,5 @@ CBMS Regional Conference on Spatial Statistics travel funding, 2017.
 **Statistics/Data Analysis**: R, JAGS, JMP, Pandas, SciKit-Learn, Stan,
 Statsmodels, SAS, Tableau
 
-**Web**: JavaScript, HTML, PHP
+**Web**: JavaScript, HTML, PHP, React Native
 

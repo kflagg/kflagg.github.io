@@ -27,7 +27,7 @@ ubiquitous, but I have extremely little patience for it.
 
 Now, if you are a budding data scientist, you will at some point need to ensure
 that the code you wrote gets run the exact same way by the exact same version
-of every module on every single machine that even runs it. I don't want to
+of every module on every single machine that ever runs it. I don't want to
 get that deep or technical here, but
 [this article](https://realpython.com/intro-to-pyenv/)
 on Pyenv is something I have consulted many times.
