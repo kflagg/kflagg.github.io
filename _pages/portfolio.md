@@ -81,11 +81,12 @@ Montana State University, Billings, had conducted an experiment to assess if
 an online video-based intervention could reduce stigma around discussing
 suicide and mental health among college students at a university in Montana.
 Participants were assigned to one of two treatment groups or to a control
-group, and completed a questionnaire before viewing a video and then again two
-weeks later. The videos viewed by the treatment groups were based upon an
-acclaimed theatre program in which local high school and college students
-discussed their experiences with depression and suicidal ideation, and the
-questionnaire included the Self-Stigma of Seeking Help survey instrument.
+group, and completed a questionnaire before viewing a video and then completed
+the same questionnaire again two weeks later. The videos viewed by the
+treatment groups were based upon an acclaimed theatre program in which local
+high school and college students discussed their experiences with depression
+and suicidal ideation, and the questionnaire included the Self-Stigma of
+Seeking Help survey instrument.
 
 #### Services Provided
 
@@ -111,7 +112,7 @@ Flathead Indian Reservation in western Montana provided interviews and responded
 to a questionnaire regarding their food security, their use of wild foods, and
 their identities as Native Americans. The objective was to assess the impact of
 hunting and gathering on both food security and cultural identity in the context
-of climate change affective food availability.
+of climate change affecting food availability.
 
 #### Services Provided
 
@@ -136,8 +137,8 @@ an interesting topic (exchange-traded funds with surprisingly consistent
 pricing behavior) and illustrate what a data analysis looks like when it avoids
 scope creep and unnecessary complexity. The post follows the process of making
 some initial observations, developing hypotheses, obtaining relevant data,
-and drawing insights from straightforward visuals and summary tables. Although
-the analysis proved inconclusive regarding the initial hypotheses, and I
-thought of many new questions for further analysis along the way, I made a point
-of sticking to the original purpose and scope.
+and drawing insights from straightforward visuals and summary statistics.
+Although the analysis proved inconclusive regarding the initial hypotheses,
+and I thought of many new questions for further analysis along the way, I made
+a point of sticking to the original purpose and scope.
 
