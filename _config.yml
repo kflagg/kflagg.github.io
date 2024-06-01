@@ -20,9 +20,14 @@ title_separator          : "-"
 subtitle                 : "Data Scientist and Statistics Practitioner"
 name                     : "Kenny Flagg"
 description              : >-
-  I think about data. My work has touched upon environmental statistics, study
-  design and analysis, sales process automation, cloud computing, enterprise
-  data engineering, MLOps, and teaching/mentoring.
+  Consultant based in Bozeman, Montana, working with all things data. I have
+  worked as both a statistician and data scientist on projects in the fields
+  of environmental statistics, spatial and temporal predictive models, study
+  design and analysis, sales process automation, business analytics, business
+  intelligence, cloud computing, enterprise data engineering, MLOps, and
+  teaching/mentoring. I am especially interested in helping researchers and
+  small teams establish robust and repeatable processes to best use their data
+  to draw conclusions and make decisions.
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "kflagg/kflagg.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -98,9 +103,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "G-KLEVK15R0Y"
     anonymize_ip         : # true, false (default)
 
 
