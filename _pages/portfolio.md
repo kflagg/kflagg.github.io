@@ -2,6 +2,7 @@
 title: "Portfolio"
 permalink: "/portfolio/"
 toc: true
+toc-depth: 2
 ---
 
 
@@ -67,7 +68,7 @@ associated with greater rates of patients having advance directives.
 - Recommended wording to explain the statistical methods and results.
 
 
-### Analysis of Mental Health Stigma Survey Data
+### Analysis of a Mental Health Stigma Survey
 
 - Client: Sarah Keller
 - Project Type: [internal report](https://scholarworks.montana.edu/handle/1/14927)

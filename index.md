@@ -4,16 +4,6 @@ layout: home
 author_profile: true
 ---
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KLEVK15R0Y"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-KLEVK15R0Y');
-</script>
-
 Welcome! I am a freelance statistics and data science consultant, currently
 currently taking on [consulting projects](consulting). I have broad
 experience in both scientific research and the tech sector and I am especially
