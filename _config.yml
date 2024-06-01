@@ -21,13 +21,13 @@ subtitle                 : "Data Scientist and Statistics Practitioner"
 name                     : "Kenny Flagg"
 description              : >-
   Consultant based in Bozeman, Montana, working with all things data. I have
-  worked as both a statistician and data scientist on projects in the fields
-  of environmental statistics, spatial and temporal predictive models, study
-  design and analysis, sales process automation, business analytics, business
-  intelligence, cloud computing, enterprise data engineering, MLOps, and
-  teaching/mentoring. I am especially interested in helping researchers and
-  small teams establish robust and repeatable processes to best use their data
-  to draw conclusions and make decisions.
+  experience consulting a statistician, data scientist, teacher, or mentor on
+  projects involving environmental statistics, spatial and temporal predictive
+  models, study design and analysis, sales process automation, business
+  analytics, business intelligence, cloud computing, enterprise data
+  engineering, MLOps, and more. I am especially interested in helping
+  researchers and small teams establish robust and repeatable processes to
+  best use their data to draw conclusions and make decisions.
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "kflagg/kflagg.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
