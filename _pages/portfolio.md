@@ -2,7 +2,7 @@
 title: "Portfolio"
 permalink: "/portfolio/"
 toc: true
-toc-depth: 2
+toc_max_level: 1
 ---
 
 
