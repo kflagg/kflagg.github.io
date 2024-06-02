@@ -4,7 +4,7 @@ permalink: "/kflagg-cv/"
 toc: true
 ---
 
-Bozeman, MT &#2b2b; [kflagg.github.io](https://kflagg.github.io/) &#2b2b;
+Bozeman, MT ⬨ [kflagg.github.io](https://kflagg.github.io/) ⬨
 [flagg.ka@gmail.com](mailto:flagg.ka@gmail.com)
 
 I am a self-directed learner and thoughtful communicator with experience in
