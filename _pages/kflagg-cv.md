@@ -4,6 +4,9 @@ permalink: "/kflagg-cv/"
 toc: true
 ---
 
+  Bozeman, MT
+  [kflagg.github.io](https://kflagg.github.io/)
+  [flagg.ka@gmail.com](mailto:flagg.ka@gmail.com)
 
 I am a self-directed learner and thoughtful communicator with experience in
 statistics, machine learning, data engineering, scientific research, event
@@ -123,10 +126,12 @@ Tools used:
 # Education
 
 **Ph.D., Statistics**, Montana State University, Bozeman, November 2020,
-advised by Andrew Hoegh
+advised by Andrew Hoegh. Dissertation:
+_[Bayesian Computing and Sampling Design for Partially-Surveyed Spatial Point Process Models](https://scholarworks.montana.edu/xmlui/handle/1/16040)_
 
 **M.S., Statistics**, Montana State University, Bozeman, May 2016, advised
-by Megan Higgs
+by Megan Higgs. Writing project: 
+_[Visual Sample Plan and Unexploded Ordnance: What do we need to know to find UXO?](https://scholarworks.montana.edu/xmlui/handle/1/15195)_
 
 **B.S., Mathematics**, Applied Mathematics/Statistics Concentration,
 University of California, Riverside, June 2014

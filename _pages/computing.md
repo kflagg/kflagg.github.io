@@ -21,16 +21,19 @@ Certain sections are complete enough to be useful.
   tabular data, [Chapter 2](https://kflagg.gitbook.io/pythonds/2.-pandas-structuring-data-for-analysis) curates a set of Pandas tutorials.
 - Similarly, [Chapter 3](https://kflagg.gitbook.io/pythonds/3.-statsmodels-traditional-statistics) will get you starting doing some classical statistics.
 
-For data visualization, I prefer Cloud9 (a Python/Pandas port of GGPlot2).
-Seaborn is another popular module which produces nice output. Matplotlib is
-ubiquitous, but I have extremely little patience for it.
+For data visualization, I prefer [Plotnine](https://plotnine.org/) (a
+Python/Pandas port of GGPlot2). [Seaborn](https://seaborn.pydata.org/) is
+another popular module which produces nice output.
+[Matplotlib](https://matplotlib.org/) is ubiquitous, but I have extremely
+little patience for it.
 
 Now, if you are a budding data scientist, you will at some point need to ensure
 that the code you wrote gets run the exact same way by the exact same version
 of every module on every single machine that ever runs it. I don't want to
 get that deep or technical here, but
 [this article](https://realpython.com/intro-to-pyenv/)
-on Pyenv is something I have consulted many times.
+on [Pyenv](https://github.com/pyenv/pyenv) is something I have consulted many
+times.
 
 
 ## R
