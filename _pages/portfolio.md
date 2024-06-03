@@ -14,11 +14,7 @@ toc: true
 - Project Type: [MS thesis](https://scholarworks.montana.edu/handle/1/14687)
 - Capacity: graduate assistant consultant at [MSU SCRS](https://www.montana.edu/statisticalconsulting)
 
-![Point-and-range plot showing the proportion of successful crossings of
-electric fences by bear for short and tall fences, with the electricity both
-on and off. Both designs perform similarly at deterring passage when
-electrified, but the tall fence has a greater improvement in passage rate when
-the electricity is off]({{ site.url }}{{ site.baseurl }}/assets/portfolio/bjohnson.png)
+![Point-and-range plot showing the proportion of successful crossings of electric fences by bear for short and tall fences, with the electricity both on and off. Both designs perform similarly at deterring passage when electrified, but the tall fence has a greater improvement in passage rate when the electricity is off]({{ site.url }}{{ site.baseurl }}/assets/portfolio/bjohnson.png)
 
 #### Project Summary
 
@@ -53,6 +49,8 @@ bears and the fences.
 - Project Type: [DNP capstone project](https://scholarworks.montana.edu/handle/1/12777)
 - Capacity: graduate assistant consultant at [MSU SCRS](https://www.montana.edu/statisticalconsulting)
 
+![Scatterplot showing number of comorbidities against patient age, colored by status of having an advance directive. No patterns are apparent.]({{ site.url }}{{ site.baseurl }}/assets/portfolio/fanelli3.png)
+
 #### Project Summary
 
 The client, a doctor of nursing practice student in the College of Nursing at
@@ -64,6 +62,8 @@ during their clinic visits. The survey was conducted both before and during the
 intervention period, and the objective was to assess if the intervention was
 associated with greater rates of patients having advance directives.
 
+![Stacked bar chart showing the percent of patients having an advance directive by age group, for patients seen pre- and post-intervention. The percent of patients with advance directives increases with age, but slightly more of the pre-intervention patients had advance directives compared to the post-intervention patients.]({{ site.url }}{{ site.baseurl }}/assets/portfolio/fanelli1.png)
+
 #### Services Provided
 
 - Provided recommendations on model/method selection. A logistic regression
@@ -72,6 +72,7 @@ associated with greater rates of patients having advance directives.
 - Generated plots summarizing the data.
 - Recommended wording to explain the statistical methods and results.
 
+![Stacked bar chart showing the percent of patients having an advance directive by number of visits to the clinic, for patients seen pre- and post-intervention. The percent of patients with advance directives increases with number of visits, but slightly more of the pre-intervention patients had advance directives compared to the post-intervention patients.]({{ site.url }}{{ site.baseurl }}/assets/portfolio/fanelli2.png)
 
 ### Analysis of a Mental Health Stigma Survey
 
