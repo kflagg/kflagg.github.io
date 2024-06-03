@@ -14,6 +14,12 @@ toc: true
 - Project Type: [MS thesis](https://scholarworks.montana.edu/handle/1/14687)
 - Capacity: graduate assistant consultant at [MSU SCRS](https://www.montana.edu/statisticalconsulting)
 
+![Point-and-range plot showing the proportion of successful crossings of
+electric fences by bear for short and tall fences, with the electricity both
+on and off. Both designs perform similarly at deterring passage when
+electrified, but the tall fence has a greater improvement in passage rate when
+the electricity is off]({{ site.url }}{{ site.baseurl }}/assets/portfolio/bjohnson.png)
+
 #### Project Summary
 
 The client, a master's student in the Department of Animal and Range Sciences
@@ -98,7 +104,7 @@ Seeking Help survey instrument.
 - Recommended wording to explain the statistical methods and results.
 
 
-### Analysis of Food Security Survey Data
+### Analysis of a Food Security Survey
 
 - Client: Erin Smith
 - Project Type: [peer-reviewed research paper](https://doi.org/10.5304/jafscd.2019.09B.011)

@@ -4,8 +4,8 @@ permalink: "/kflagg-cv/"
 toc: true
 ---
 
-Bozeman, MT ⬨ [kflagg.github.io](https://kflagg.github.io/) ⬨
-[flagg.ka@gmail.com](mailto:flagg.ka@gmail.com)
+• Bozeman, MT • [kflagg.github.io](https://kflagg.github.io/) •
+[flagg.ka@gmail.com](mailto:flagg.ka@gmail.com) •
 
 I am a self-directed learner and thoughtful communicator with experience in
 statistics, machine learning, data engineering, scientific research, event
