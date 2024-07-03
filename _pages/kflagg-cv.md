@@ -15,6 +15,27 @@ planning, and peer team leadership.
 # Work Experience
 
 
+## [Self-Employed](https://kflagg.github.io), remote
+
+**Consultant**, April 2024-present
+
+Self-employed consultant specializing in statistics, data science, data
+engineering, scientific study design, business intelligence, and web traffic
+analytics. I have built databases, web apps, data pipleines, predictive
+models, analytics dashboards, and done assorted statistical analyses.
+
+
+Tools used:
+
+- AWS (Step Functions, Lambda, Eventbridge, RDS, S3, others)
+- Python, Pandas, SQLAlchemy, Poetry, Pydantic, Pytest, Alembic
+- R, dplyr, tidyr, GGPlot2
+- JavaScript, React, React Native
+- PostgresSQL
+- Tableau
+- GitHub Actions
+
+
 ## [Vizion](https://vizionapi.com), remote
 
 **Data Scientist**, December 2022–March 2024
