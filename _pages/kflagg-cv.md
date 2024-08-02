@@ -28,6 +28,7 @@ models, analytics dashboards, and done assorted statistical analyses.
 Tools used:
 
 - AWS (Step Functions, Lambda, Eventbridge, RDS, S3, others)
+- Google Cloud (Drive API, Programmable Search Engine, others)
 - Python, Pandas, SQLAlchemy, Poetry, Pydantic, Pytest, Alembic
 - R, dplyr, tidyr, GGPlot2
 - JavaScript, React, React Native
