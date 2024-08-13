@@ -21,7 +21,7 @@ planning, and peer team leadership.
 
 Self-employed consultant specializing in statistics, data science, data
 engineering, scientific study design, business intelligence, and web traffic
-analytics. I have built databases, web apps, data pipleines, predictive
+analytics. I have built databases, web apps, data pipelines, predictive
 models, analytics dashboards, and done assorted statistical analyses.
 
 

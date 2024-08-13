@@ -128,6 +128,27 @@ of climate change affecting food availability.
 - Copyedited the manuscript.
 
 
+## Web Development
+
+### [La Brasserie](https://www.labrasseriemt.com/)
+
+#### Project Summary
+
+The client had recently acquired and rebranded a restaurant and needed several
+enhancements to the newly revised website.
+
+![Screenshot of the La Brasserie website showing a gallery of photos of the interior of the restaurant.]({{ site.url }}{{ site.baseurl }}/assets/portfolio/lab-gallery.png)
+
+![Screenshot of the La Brasserie website showing a description of the pop-up dinner series featuring a guest chef.]({{ site.url }}{{ site.baseurl }}/assets/portfolio/lab-popup.png)
+
+#### Services Provided
+
+- SEO audit and enhancements
+- Created an animated photo gallery page
+- Created a new information and reservation page for a pop-up guest chef series
+- Set up online ordering for the wine club
+
+
 ## Personal Projects
 
 
