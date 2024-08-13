@@ -128,9 +128,13 @@ of climate change affecting food availability.
 - Copyedited the manuscript.
 
 
-## Web Development
+## Software and Web Development
 
-### [La Brasserie](https://www.labrasseriemt.com/)
+### La Brasserie Website Enhancements
+
+- Client: [La Brasserie](https://www.labrasseriemt.com/)
+- Project Type: Website development
+- Capacity: freelance consultant
 
 #### Project Summary
 
