@@ -32,6 +32,7 @@ Tools used:
 - Python, Pandas, SQLAlchemy, Poetry, Pydantic, Pytest, Alembic
 - R, dplyr, tidyr, GGPlot2
 - JavaScript, React, React Native
+- RemixLabs
 - PostgresSQL
 - Tableau
 - GitHub Actions
@@ -47,6 +48,8 @@ quality, and detect likelihood of shipment delay.
 
 Built one of the analytics layer's most robust crawlers (10000 records per
 day) when API connections were added for a new set of data sources.
+
+Built a data pipeline and dashboard to enable self-service access to the highest-quality recent data for the sales team to use in demos.
 
 Tools used:
 
