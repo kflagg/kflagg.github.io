@@ -24,6 +24,10 @@ engineering, scientific study design, business intelligence, and web traffic
 analytics. I have built databases, web apps, data pipelines, predictive
 models, analytics dashboards, and done assorted statistical analyses.
 
+Recent projects include:
+
+- Web development and an analytical approach to SEO
+- Statistical analysis of atrial fibrillation time series data
 
 Tools used:
 
@@ -32,7 +36,6 @@ Tools used:
 - Python, Pandas, SQLAlchemy, Poetry, Pydantic, Pytest, Alembic
 - R, dplyr, tidyr, GGPlot2
 - JavaScript, React, React Native
-- RemixLabs
 - PostgresSQL
 - Tableau
 - GitHub Actions
@@ -46,10 +49,18 @@ Identified gaps in container tracking data and implemented data-driven
 solutions to fill those gaps, increase data usability, improve data
 quality, and detect likelihood of shipment delay.
 
+Designed and implemented a data science solution for combining shipping event
+data from multiple data sources while matching duplicates present in several
+sources.
+
 Built one of the analytics layer's most robust crawlers (10000 records per
 day) when API connections were added for a new set of data sources.
 
-Built a data pipeline and dashboard to enable self-service access to the highest-quality recent data for the sales team to use in demos.
+Created a dashboard for daily visualization of vessel locations showing their
+risk of being off-course or delayed.
+
+Built a data pipeline and dashboard to enable self-service access to the
+highest-quality recent data for the sales team to use in demos.
 
 Tools used:
 
@@ -66,6 +77,7 @@ Tools used:
 
 Developed AI/ML models for enterprise clients and implemented these models
 on cloud computing platforms, including AWS and the Salesforce ecosystem.
+
 Lead a two-person team on a long-term project using reinforcement learning to
 create a next-best-action model for guiding salesperson actions to improve
 customer retention.

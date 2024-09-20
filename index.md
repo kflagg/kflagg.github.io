@@ -8,7 +8,8 @@ Welcome! I am a statistics and data science consultant, currently currently
 taking on [consulting projects](consulting). I have broad experience in both
 scientific research and the tech sector and I am especially interested in
 helping small or growing teams establish repeatable processes and complete
-their analyses.
+their analyses. I know how large enterprises use data to succeed and I know how
+to apply those technologies to your small business.
 
 When not working with data, I am often traveling or doing swing and Latin
 dancing. However, this site is mostly about my professional activities.
@@ -25,4 +26,7 @@ actively participating in academic research. A [section](research) of this
 website exists to support those who want to build upon my past academic work.
 I am an alumnus of Bozeman Environmental and Ecological Statistics; you can
 find more about their current research at
-[the BEES website](https://bozemanenvrstat.github.io).
+[the BEES website](https://bozemanenvrstat.github.io). I am a member of the
+[American Statistical Association](https://www.amstat.org), specifically the
+[Montana Chapter](https://community.amstat.org/montana/home) and the
+[Statistical Consulting Section](https://community.amstat.org/cnsl/home).
