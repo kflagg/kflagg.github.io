@@ -24,10 +24,12 @@ engineering, scientific study design, business intelligence, and web traffic
 analytics. I have built databases, web apps, data pipelines, predictive
 models, analytics dashboards, and done assorted statistical analyses.
 
+<!--
 Recent projects include:
 
 - Web development and an analytical approach to SEO
 - Statistical analysis of atrial fibrillation time series data
+-->
 
 Tools used:
 
@@ -64,7 +66,7 @@ highest-quality recent data for the sales team to use in demos.
 
 Tools used:
 
-- AWS (Step Functions, Lambda, Eventbridge, S3, others)
+- AWS (Step Functions, Lambda, Eventbridge, S3, Amplify, others)
 - Python, Pandas, SQLAlchemy, Poetry, Pydantic, Pytest, Alembic
 - PostgresSQL, Snowflake
 - Tableau
@@ -185,7 +187,7 @@ June 2011
 # Leadership and Volunteering
 
 
-## [Downbeat Vintage Swing Society](https://downbeatswing.com), Bozeman, MT
+## [Downbeat Vintage Swing Society](https://linktr.ee/downbeatswing), Bozeman, MT
 
 **Archivist**, February 2021–January 2024
 
