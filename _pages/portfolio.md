@@ -25,19 +25,20 @@ enhancements to the newly revised website.
 
 #### Services Provided
 
-- SEO audit and enhancements
-- Created an animated photo gallery page
-- Created a new information and reservation page for a pop-up guest chef series
-- Set up online ordering for the wine club
+- SEO audit and enhancements.
+- Created an animated photo gallery page.
+- Created a new information and reservation page for a pop-up guest chef series.
+- Set up online ordering for the wine club.
 
 
 ## Data Consulting
 
 
-### Analysis of an Electric Fence Permeability Experiment
+<!--
+### Analysis of Atrial Fibrillation and Heart Rate Variability Time Series Data
 
 - Client: Alan Wanderer
-- Project Type: Data analysis
+- Project Type: data analysis
 - Capacity: freelance consultant
 
 ![Bar chart showing the percent of days in each month ]({{ site.url }}{{ site.baseurl }}/assets/portfolio/af.png)
@@ -47,17 +48,18 @@ enhancements to the newly revised website.
 The client, a retired research MD, self-administered an experimental magnesium
 supplementation regimen with the hypothesis that it would manage his atrial
 fibrillation (AF). He collected monthly AF detection and heart rate variability
-(HRV) data via his apple watch. He produced a chart which appeared to show a
+(HRV) data via his Apple Watch. He produced a chart which appeared to show a
 compelling confirmation of his hypothesis, and requested an independent
 statistical analysis to quantify the effect. The analysis would be used in a
-chapter of a book he was writing.
+chapter of a book he was authoring.
 
 #### Services Provided
 
-- Identified and performed appropriate statistical tests
+- Identified and performed appropriate statistical tests.
 - Provided a detailed report with data summaries and accurate statistical
-  language
-- Reviewed the relevant portion of the manuscript
+  language.
+- Reviewed the relevant portion of the manuscript.
+-->
 
 
 ### Analysis of an Electric Fence Permeability Experiment
