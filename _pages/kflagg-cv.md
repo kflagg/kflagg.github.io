@@ -15,7 +15,7 @@ planning, and peer team leadership.
 # Work Experience
 
 
-## [Self-Employed](https://kflagg.github.io), remote
+## [Self-Employed](https://kflagg.github.io), Bozeman, MT
 
 **Consultant**, April 2024-present
 
