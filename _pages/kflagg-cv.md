@@ -90,7 +90,8 @@ to work simultaneously.
 
 Identified ways to transform a client's unstructured datalake into a robust,
 versionable system used routinely by data scientists to obtain historic data
-for specific, current needs.
+for specific, current needs. Helped mentor the data engineer who was assigned
+to implement these changes.
 
 Tools used
 

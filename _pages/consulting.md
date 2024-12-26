@@ -45,5 +45,5 @@ You can have a look at my [CV](../kflagg-cv) and [portfolio](../portfolio) for
 details of my past work. If you are interested in bringing me onto your project
 as a statistician or data science practitioner, I will be happy to schedule a
 free no-obligation one-hour consultation to discuss your needs.
-[Email me](mailto:flagg.ka@gmail.com) to get started!
+[Book a meeting](https://calendly.com/kenny-searchit/initial) to get started!
 
