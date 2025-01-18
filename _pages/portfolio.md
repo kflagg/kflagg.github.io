@@ -7,6 +7,29 @@ toc: true
 
 ## Software and Web Development
 
+### Starlite Course Catalog Webpage
+
+- Client: [Starlite Studios](https://www.starlitestudiosinc.com/)
+- Project Type: Website development
+- Capacity: freelance consultant
+
+#### Project Summary
+
+The client owns a dance studio which offers classes at a facility operated by
+the local municipal recreation department. Class registration was handled on
+a third-party platform purchased by the recreation department, which impeded
+the client's ability to provide self-service online registration and
+inconvenienced students.
+
+#### Services Provided
+
+- Developed an API client using JavaScript and Wix's Velo library to import
+  course data from the third-party platform.
+- Created a catalog page automatically populated with current course offerings
+  and up-to-date registration links.
+- Improved efficiency by eliminating broken links and redundant maintainance
+  of the catalog on multiple platforms.
+
 
 ### La Brasserie Website Enhancements
 
@@ -16,7 +39,7 @@ toc: true
 
 #### Project Summary
 
-The client had recently acquired and rebranded a restaurant and needed several
+The client had recently acquired and rebranded a restaurant, and needed several
 enhancements to the newly revised website.
 
 ![Screenshot of the La Brasserie website showing a gallery of photos of the interior of the restaurant.]({{ site.url }}{{ site.baseurl }}/assets/portfolio/lab-gallery.png)
@@ -34,7 +57,6 @@ enhancements to the newly revised website.
 ## Data Consulting
 
 
-<!--
 ### Analysis of Atrial Fibrillation and Heart Rate Variability Time Series Data
 
 - Client: Alan Wanderer
@@ -59,7 +81,6 @@ chapter of a book he was authoring.
 - Provided a detailed report with data summaries and accurate statistical
   language.
 - Reviewed the relevant portion of the manuscript.
--->
 
 
 ### Analysis of an Electric Fence Permeability Experiment
