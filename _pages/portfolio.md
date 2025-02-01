@@ -21,6 +21,8 @@ a third-party platform purchased by the recreation department, which impeded
 the client's ability to provide self-service online registration and
 inconvenienced students.
 
+![Screenshot of the Starlite website showing a schedule grid of upcoming dance class offerings.]({{ site.url }}{{ site.baseurl }}/assets/portfolio/starlite-grid.png)
+
 #### Services Provided
 
 - Developed an API client using JavaScript and Wix's Velo library to import

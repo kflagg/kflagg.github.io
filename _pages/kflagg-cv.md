@@ -33,11 +33,11 @@ Recent projects include:
 
 Tools used:
 
-- AWS (Step Functions, Lambda, Eventbridge, RDS, S3, others)
+- AWS (Amplify, Step Functions, Lambda, Eventbridge, RDS, S3, others)
 - Google Cloud (Drive API, Programmable Search Engine, others)
 - Python, Pandas, SQLAlchemy, Poetry, Pydantic, Pytest, Alembic
 - R, dplyr, tidyr, GGPlot2
-- JavaScript, React, React Native
+- JavaScript, TypeScript, React, React Native
 - PostgresSQL
 - Tableau
 - GitHub Actions
@@ -362,5 +362,5 @@ CBMS Regional Conference on Spatial Statistics travel funding, 2017.
 **Statistics/Data Analysis**: R, JAGS, JMP, Pandas, SciKit-Learn, Stan,
 Statsmodels, SAS, Tableau
 
-**Web**: JavaScript, HTML, PHP, React Native
+**Web**: JavaScript, TypeScript, HTML, PHP, React, React Native
 
