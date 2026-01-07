@@ -4,12 +4,12 @@ layout: home
 author_profile: true
 ---
 
-Welcome! I am a statistics and data science consultant, currently currently
-taking on [new projects](consulting). I have broad experience in both
-scientific research and the tech sector, and I am especially interested in
-helping small or growing teams establish repeatable processes and complete
-their analyses. I know how large enterprises use data to succeed and I know how
-to apply those technologies to your small business.
+Welcome! I am a statistics and data science consultant. I have broad
+experience in both scientific research and the tech sector, and I am
+especially interested in helping small or growing teams establish
+repeatable processes and complete their analyses. I know how large
+enterprises use data to succeed and I know how to apply those technologies
+to your small business.
 
 When not working with data, I am often traveling or doing swing and Latin
 dancing. However, this site is mostly about my professional activities.
