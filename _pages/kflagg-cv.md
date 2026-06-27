@@ -15,6 +15,30 @@ planning, and peer team leadership.
 # Work Experience
 
 
+## [Madison River Cleaning](https://madisonrivercleaning.com), Bozeman, MT
+
+**Administrative and Operations Assistant**, November 2025-present
+
+Support management and operational staff as a member of the leadership team.
+Primary contact for new clients during the onboarding phase, lead employee
+recruitment efforts, and manage the company's internal projects. Serve as the
+primary information hub for clients, employees, and vendors.
+
+Write proposals and prepare contracts, develop and prepare reports,
+track equipment inventroy, and create automations to facilitate those
+processes. Research equipment, supplies, and vendors. Process payments and
+manage receivables, lead recruitment efforts, and maintain HR documentation.
+
+Develop SOPs and implement technical infrastructure to streamline business
+operations. Administer the NetSuite and Google Workspace implementations.
+
+Tools used:
+
+- NetSuite
+- Google Workspace
+- Webflow
+
+
 ## [Self-Employed](https://kflagg.github.io), Bozeman, MT
 
 **Consultant**, April 2024-present
@@ -38,6 +62,7 @@ Tools used:
 - Python, Pandas, SQLAlchemy, Poetry, Pydantic, Pytest, Alembic
 - R, dplyr, tidyr, GGPlot2
 - JavaScript, TypeScript, React, React Native
+- Squarespace, Wix
 - PostgresSQL
 - Tableau
 - GitHub Actions
@@ -347,11 +372,13 @@ CBMS Regional Conference on Spatial Statistics travel funding, 2017.
 
 **Cloud Platforms**: AWS, SFDC/Apex
 
-**CRM**: Salesforce
+**CRM**: Salesforce, HubSpot
 
 **Data Storage**: PostgreSQL, Snowflake, Dremio
 
 **Document Creation**: Google Docs, LaTeX, LibreOffice, MS Office
+
+**ERP**: NetSuite, SuiteScript
 
 **Mathematics**: Mathematica, Matlab, NumPy
 
