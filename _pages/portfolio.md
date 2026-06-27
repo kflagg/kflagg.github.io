@@ -10,7 +10,7 @@ toc: true
 ### Starlite Course Catalog Webpage
 
 - Client: [Starlite Studios](https://www.starlitestudiosinc.com/)
-- Project Type: Website development
+- Project Type: website development
 - Capacity: freelance consultant
 
 #### Project Summary
@@ -36,7 +36,7 @@ inconvenienced students.
 ### La Brasserie Website Enhancements
 
 - Client: [La Brasserie](https://www.labrasseriemt.com/)
-- Project Type: Website development
+- Project Type: website development
 - Capacity: freelance consultant
 
 #### Project Summary
