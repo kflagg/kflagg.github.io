@@ -39,6 +39,8 @@ contributing to projects ranging from health surveys to animal behavior
 experiments. Additionally, I did my own graduate research in the statistical
 mapping of unexploded ordnance at weapons testing sites.
 
+<!--
+
 ## Let's Get Started!
 
 You can have a look at my [CV](../kflagg-cv) and [portfolio](../portfolio) for
@@ -47,3 +49,4 @@ as a statistician or data science practitioner, I will be happy to schedule a
 free no-obligation consultation to discuss your needs.
 [Book a meeting](https://calendly.com/kenny-searchit/initial) to get started!
 
+-->
