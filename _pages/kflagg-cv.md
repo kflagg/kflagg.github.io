@@ -25,12 +25,12 @@ recruitment efforts, and manage the company's internal projects. Serve as the
 primary information hub for clients, employees, and vendors.
 
 Write proposals and prepare contracts, develop and prepare reports,
-track equipment inventroy, and create automations to facilitate those
+track equipment inventory, and create automations to facilitate those
 processes. Research equipment, supplies, and vendors. Process payments and
 manage receivables, lead recruitment efforts, and maintain HR documentation.
 
 Develop SOPs and implement technical infrastructure to streamline business
-operations. Administer the NetSuite and Google Workspace implementations.
+operations. NetSuite and Google Workspace admin.
 
 Tools used:
 
